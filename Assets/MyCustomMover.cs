@@ -22,7 +22,7 @@ public class MyCustomMover : MonoBehaviour
         {
             _rigidbody = gameObject.AddComponent<Rigidbody>();
         }
-        
+
         // Настраиваем Rigidbody для движения через физику
         _rigidbody.useGravity = UseGravity;
         _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;

@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 359a705b54c5d4146b5fb6428a99f3f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColliderTrigger
-  stayActiveAfterTrigger: 1
+  stayActiveAfterTrigger: 0
   isTriggered: 0
   targetTags:
   - Player

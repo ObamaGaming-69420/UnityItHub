@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneSwitchTrigger : MonoBehaviour
 {
@@ -38,6 +39,18 @@ public class SceneSwitchTrigger : MonoBehaviour
 
     private void SwitchScene()
     {
+        // Запускаем корутину загрузки
+        StartCoroutine(LoadSceneWithDelay());
+
+        // Сразу отключаем скрипт, чтобы Update не вызывал загрузку много раз
+        this.enabled = false;
+    }
+
+    private IEnumerator LoadSceneWithDelay()
+    {
+        // Ждем 2 секунды (можешь заменить на свою переменную)
+        yield return new WaitForSeconds(5f);
+
         if (loadNextScene)
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -51,7 +64,7 @@ public class SceneSwitchTrigger : MonoBehaviour
         {
             Debug.LogWarning("SceneSwitchTrigger: Не указана сцена для загрузки!");
         }
-        
+
         // Отключаем компонент после переключения сцены
         this.enabled = false;
     }
