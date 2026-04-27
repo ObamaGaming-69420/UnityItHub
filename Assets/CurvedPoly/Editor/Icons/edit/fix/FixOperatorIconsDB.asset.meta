@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c8bb5681f5cb5e4cb800732ea7be071
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Icons/edit/fix/FixOperatorIconsDB.asset
+  uploadId: 473250

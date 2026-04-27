@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 84fab6038db2b0f4e9b57347abcce425
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Primitives/Simple/Quad4x.asset
+  uploadId: 473250

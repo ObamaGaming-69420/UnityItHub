@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 54cbc20fdaf94134c8c848009ff1b849
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Demo/LoDsGroupDemo.unity
+  uploadId: 473250

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbbc0fd287ad205448aeb09153d9b478
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/shapecontrol/ShapeControlOperationIconsDB.asset
+  uploadId: 473250

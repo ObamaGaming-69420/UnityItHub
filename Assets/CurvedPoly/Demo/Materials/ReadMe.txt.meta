@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c5bb33158357ce046a513da7452f555d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Demo/Materials/ReadMe.txt
+  uploadId: 473250

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aac20c1ce0bdb5e44b989e27ab53279d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/Materials/Unwrap Options.asset
+  uploadId: 473250

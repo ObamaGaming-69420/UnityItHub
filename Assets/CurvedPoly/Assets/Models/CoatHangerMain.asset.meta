@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3f12796ebbdd6c4798869fcfc0a7718
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Models/CoatHangerMain.asset
+  uploadId: 473250

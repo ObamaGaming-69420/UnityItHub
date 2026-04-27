@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8425544cfd2e49e479b117c540aff3ec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Demo/Scripts/ChangeLodIndex.cs
+  uploadId: 473250

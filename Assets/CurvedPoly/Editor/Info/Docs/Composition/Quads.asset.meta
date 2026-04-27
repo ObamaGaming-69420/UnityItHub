@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b338cfcf94653ea428254ad500f3d301
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/Composition/Quads.asset
+  uploadId: 473250

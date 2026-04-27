@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf84beea42cb6ee48948507d5f4dd061
+timeCreated: 1487675991
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Materials/Bisided Normals Mat.mat
+  uploadId: 473250

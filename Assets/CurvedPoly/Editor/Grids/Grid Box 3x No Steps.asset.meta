@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1efde17bca51da4cb5732d4ea4b79a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Grids/Grid Box 3x No Steps.asset
+  uploadId: 473250

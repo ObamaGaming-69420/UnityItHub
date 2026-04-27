@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 84b2dc67310780c458d49cf6a1ce3237
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/ArcGeneration.asset
+  uploadId: 473250

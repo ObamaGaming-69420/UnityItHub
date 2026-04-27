@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c5ef9cb305cfa24f99fddf9de2897e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/AdvancedShapeEditing/Cylindric Transform.asset
+  uploadId: 473250

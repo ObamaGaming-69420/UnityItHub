@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 789c0a3439206c8428742b309c60baa1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/Composition/Bar.asset
+  uploadId: 473250

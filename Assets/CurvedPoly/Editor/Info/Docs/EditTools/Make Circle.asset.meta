@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 82a448091f50be5468f47cc9712748b7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/EditTools/Make Circle.asset
+  uploadId: 473250

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc437c62d18119b4f9ac6b7cefbd6608
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Icons/surfaces/CSIconsDB.asset
+  uploadId: 473250

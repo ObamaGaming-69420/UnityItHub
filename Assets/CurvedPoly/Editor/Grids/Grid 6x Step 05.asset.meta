@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81dcc5c623620234a83e672abd7d1471
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Grids/Grid 6x Step 05.asset
+  uploadId: 473250

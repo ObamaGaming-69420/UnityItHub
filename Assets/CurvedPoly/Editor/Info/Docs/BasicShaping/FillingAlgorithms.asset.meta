@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb9ed686bca8a3946b5eaec2a6d0e252
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/BasicShaping/FillingAlgorithms.asset
+  uploadId: 473250

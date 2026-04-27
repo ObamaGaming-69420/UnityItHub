@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9295df33152f1c47ba77b1b076ff4da
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/LevelsOfDetails/TessellationMenu.asset
+  uploadId: 473250

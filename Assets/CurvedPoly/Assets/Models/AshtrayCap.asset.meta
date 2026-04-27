@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1bc5e915e2fda1f48943d80118906909
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Models/AshtrayCap.asset
+  uploadId: 473250

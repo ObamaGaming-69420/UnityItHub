@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb5524ddfedf98e46ba284eff96f0d7e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/Composition/Composition Tools.asset
+  uploadId: 473250

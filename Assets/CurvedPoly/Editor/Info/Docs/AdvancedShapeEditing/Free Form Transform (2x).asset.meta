@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c70db6f6f86620545b7a27d4ec2b1e6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/AdvancedShapeEditing/Free Form Transform
+    (2x).asset
+  uploadId: 473250

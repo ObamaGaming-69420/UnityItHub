@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style1.uss?fileID=7433441132597879392&amp;guid=328c5b323b1c71c498dc47e5e14a7ac8&amp;type=3#Style1"/>
+    <Style src="project://database/Assets/ExitButton.uss?fileID=7433441132597879392&amp;guid=defa9c8954a55154fb6dd4f7ba99b331&amp;type=3#ExitButton"/>
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgb(255, 132, 5); position: absolute; top: auto; left: auto; right: auto; bottom: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px; align-self: center; justify-content: space-around; align-items: center; align-content: center; flex-direction: column; width: 600px; height: 400px; border-left-color: rgb(207, 105, 0); border-right-color: rgb(207, 105, 0); border-top-color: rgb(207, 105, 0); border-bottom-color: rgb(207, 105, 0); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+        <ui:Label text="My awesoem gam" style="position: relative; top: auto; left: auto; white-space: pre; right: auto; bottom: auto; font-size: 40px; align-items: center; justify-content: center; align-self: center; align-content: center; background-color: rgb(255, 255, 255); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;"/>
+        <ui:Button text="Play gaem" class="ButtonStyles"/>
+        <ui:Button text="Seting" class="ButtonStyles"/>
+        <ui:Button text="Exit gaem (dont pls)" class="ExitButton"/>
+    </ui:VisualElement>
+</ui:UXML>

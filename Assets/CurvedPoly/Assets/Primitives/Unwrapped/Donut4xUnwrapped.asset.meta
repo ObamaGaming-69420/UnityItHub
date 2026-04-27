@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edaea27df774d18469663b93ced218b4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Primitives/Unwrapped/Donut4xUnwrapped.asset
+  uploadId: 473250

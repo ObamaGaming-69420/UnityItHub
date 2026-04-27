@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e880914ff2cd9074bb735c343297f6a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/EditTools/Transform Mode.asset
+  uploadId: 473250

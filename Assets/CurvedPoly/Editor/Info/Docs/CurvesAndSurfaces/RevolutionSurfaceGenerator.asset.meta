@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 15c2cfba55e6b664593dffb79fe59569
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/RevolutionSurfaceGenerator.asset
+  uploadId: 473250

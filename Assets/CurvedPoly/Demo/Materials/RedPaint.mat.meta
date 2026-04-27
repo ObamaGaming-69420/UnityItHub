@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3bd5f2956c55cad43b213681d9ec4c8b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Demo/Materials/RedPaint.mat
+  uploadId: 473250

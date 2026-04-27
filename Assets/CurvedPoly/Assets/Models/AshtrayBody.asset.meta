@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e497d036f86f46e448ba810567917fcb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Models/AshtrayBody.asset
+  uploadId: 473250

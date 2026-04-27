@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 35c1cc90673e8ec43b36bba409da32e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/PointingsToolInfo.asset
+  uploadId: 473250

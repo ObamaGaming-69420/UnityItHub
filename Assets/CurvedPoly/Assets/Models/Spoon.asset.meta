@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f2e67bb766b2cb44b69fe6a03eed1ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Models/Spoon.asset
+  uploadId: 473250

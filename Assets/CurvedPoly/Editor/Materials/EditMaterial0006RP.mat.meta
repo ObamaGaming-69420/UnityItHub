@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8167ab772cd42aa49b511d8f51245d3c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Materials/EditMaterial0006RP.mat
+  uploadId: 473250

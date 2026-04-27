@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04e2acdb587e4444e876f0c10042ce94
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Info/Docs/Composition/Cylinder.asset
+  uploadId: 473250

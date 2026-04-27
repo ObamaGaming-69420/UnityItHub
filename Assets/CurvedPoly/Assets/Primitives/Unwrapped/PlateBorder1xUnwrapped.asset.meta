@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f28d5929ce432c4093924751ef045f5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Primitives/Unwrapped/PlateBorder1xUnwrapped.asset
+  uploadId: 473250

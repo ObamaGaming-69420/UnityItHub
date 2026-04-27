@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c39572884a35df240837e6bbfa3f9074
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Assets/Primitives/Simple/ChamferBox2x.asset
+  uploadId: 473250

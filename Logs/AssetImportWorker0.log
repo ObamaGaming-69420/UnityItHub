@@ -1,0 +1,1791 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.4f1 (360f97ecca93) revision 3542935'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-04-27T12:47:16.8452181Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'ru' Physical Memory: 15614 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-27T12:47:16Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/The Pusher
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65215
+-licensingIpc
+LicenseClient-User
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User/The Pusher
+C:/Users/User/The Pusher
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [12020]  Target information:
+
+Player connection [12020]  * "[IP] 192.168.31.201 [Port] 0 [Flags] 2 [Guid] 2661544707 [EditorId] 2661544707 [Version] 1048832 [Id] WindowsEditor(7,NepochatovLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12020] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12020] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 26.92 ms, found 5 plugins.
+Initialize engine version: 6000.4.4f1 (360f97ecca93)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/The Pusher/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon (TM) Graphics (ID=0x1681)
+    Vendor:          ATI
+    VRAM:            7807 MB
+    App VRAM Budget: 7622 MB
+    Driver:          31.0.12044.3
+    Unified Memory Architecture
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.4" at "2026-04-27T12:47:20.4590307Z"
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+CodeReloadManager initialized
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              24b275a2438c4a8ca1e93290297d06a3
+  Correlation Id:          19580d9ae74e79120e8cbc1b8a36b635
+  External correlation Id: 2467759303169572262
+  Machine Id:              2urvVuWl7lPPXBBjjw2Hi5A9tm4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.4" (connect: 0.01s, validation: 0.01s, handshake: 3.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.4-notifications" at "2026-04-27T12:47:23.5718004Z"
+[Licensing::Module] Licensing Background thread has ended after 6.73s
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.506640 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.250 seconds
+Domain Reload Profiling: 3408ms
+	BeginReloadAssembly (392ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (728ms)
+	LoadAllAssembliesAndSetupDomain (887ms)
+		LoadAssemblies (375ms)
+		AnalyzeDomain (862ms)
+			TypeCache.Refresh (860ms)
+				TypeCache.ScanAssembly (824ms)
+	FinalizeReload (1254ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (124ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171554522819-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Autodesk.Fbx.BuildTests.dll at Library/ScriptAssemblies/Autodesk.Fbx.BuildTests.dll not valid. Loading of assembly skipped.
+Assembly Autodesk.Fbx.PlayModeTests.dll at Library/ScriptAssemblies/Autodesk.Fbx.PlayModeTests.dll not valid. Loading of assembly skipped.
+Assembly Autodesk.Fbx.UnitTests.dll at Library/ScriptAssemblies/Autodesk.Fbx.UnitTests.dll not valid. Loading of assembly skipped.
+Assembly Autodesk.Fbx.UseCaseTests.dll at Library/ScriptAssemblies/Autodesk.Fbx.UseCaseTests.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 8.82 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.82 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project (1)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.436 seconds
+Domain Reload Profiling: 6373ms
+	BeginReloadAssembly (526ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (314ms)
+	LoadAllAssembliesAndSetupDomain (1966ms)
+		LoadAssemblies (1402ms)
+		AnalyzeDomain (845ms)
+			TypeCache.Refresh (638ms)
+				TypeCache.ScanAssembly (603ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3437ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (425ms)
+			ProcessInitializeOnLoadAttributes (2044ms)
+			ProcessInitializeOnLoadMethodAttributes (300ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.00 ms, found 5 plugins.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7334 unused Assets / (8.6 MB). Loaded Objects now: 8582.
+Memory consumption went from 173.6 MB to 165.1 MB.
+Total: 32.913700 ms (FindLiveObjects: 2.148300 ms CreateObjectMapping: 2.216100 ms MarkObjects: 20.338700 ms  DeleteObjects: 8.205500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 267526.494867 seconds.
+  path: Assets/Materials/New Material 6.mat
+  importAddress: Guid(b14afabbcd41eb240bc2e9301e8d9aaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/New Material 6.mat using Guid(b14afabbcd41eb240bc2e9301e8d9aaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f60aba78dd6a0ab0675615419a72f1b5') in 0.3033369 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b981c2a2f086bcc6126f93c5ee9aee5c DependenciesID=e62cba268ba6e2a7b94fd99db04c2c9c StaticDependenciesID=30773dbe6ab4729b0395c4ac8b17ed96 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Button (Win).prefab
+  importAddress: Guid(e271d62abff43954ab7bf18099bcdef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button (Win).prefab using Guid(e271d62abff43954ab7bf18099bcdef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1e9c5bad674c0427eb0fac163eb99f21') in 8.8445706 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4c3d96d54bc08a1ebe4c6a36b2f2885 DependenciesID=accce34794ecea326fe154c61970469d StaticDependenciesID=0a5d7778388a2a2ace657349287f6ff3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CurvedPoly/Assets/Materials/Normals Mat PBR.mat
+  importAddress: Guid(b38f0e3e9f58c1347a064b696c875775) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Materials/Normals Mat PBR.mat using Guid(b38f0e3e9f58c1347a064b696c875775) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a39f2a19bfe0bd4a9109295f27527835') in 0.3973572 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1e4a8c3c1d5ecfb7d69a931d97a8cc7 DependenciesID=e3c03d26a22b87aa277fd8c7cdcf9e5e StaticDependenciesID=dc3162ca05450e0c16a8c52e5ad75f92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CurvedPoly/Demo/Scripts/ChangeLodIndex.cs
+  importAddress: Guid(8425544cfd2e49e479b117c540aff3ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Scripts/ChangeLodIndex.cs using Guid(8425544cfd2e49e479b117c540aff3ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8b7301c784cc6a581ed19f5d95c70a1a') in 0.0508964 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bca16f9157bb135ca417570e58a9e16e DependenciesID=9b984976a1200fccc076b7a93db8693d StaticDependenciesID=e383c7fc84761413ba3ef95b2639559a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Materials/Materials/checkerboard.mat
+  importAddress: Guid(7d34beb2b720feb44bcaf38d1978e9a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/Materials/checkerboard.mat using Guid(7d34beb2b720feb44bcaf38d1978e9a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9cc060496c25ec8a8e6304fbb41fe465') in 0.0389831 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afb6818c61dfae471eed2559afa5c13b DependenciesID=443abc5e3ea50b35ea3a6ce940c336db StaticDependenciesID=f664b247c37dfbbf5e0d38b380ddf303 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CurvedPoly/Assets/Models/MousePlate.asset
+  importAddress: Guid(ea3ea6a3a72ac3b4e9ce4e5d6fe47b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Models/MousePlate.asset using Guid(ea3ea6a3a72ac3b4e9ce4e5d6fe47b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '640340358cb6aab40034a6ea9e0c2c1c') in 0.0699868 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe9c793bda56d65c07fb92d2ffcefdf6 DependenciesID=84a79daf9dff513518f597f6685ad04a StaticDependenciesID=a1e0b34e538a7ad160d5cbc951ed4c83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CurvedPoly/Editor/Grids/Grid 6x Step 05.asset
+  importAddress: Guid(81dcc5c623620234a83e672abd7d1471) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Grids/Grid 6x Step 05.asset using Guid(81dcc5c623620234a83e672abd7d1471) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8df95c248c037b7f081d8651d76d34ba') in 0.036948 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a92855595aa9f54a05ed3dc571fb567 DependenciesID=9fa2c23ca45f9fd08d2c5611f8af2a0e StaticDependenciesID=1f6e552df26bbdd596e6738dd1c0bbe3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  importAddress: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'adca7ed7f189e6b936ffe83996752b9e') in 0.198967 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84e68fe685960c32c3978277db302781 DependenciesID=32dc805b2d34ecc1892cab8a4bf3a39b StaticDependenciesID=bc4a32a7951a716226846dd7a25156a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AddOns/Mg3D_Food/Hamburger.fbx
+  importAddress: Guid(54b107e50acd7e24b96d7de887c68833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AddOns/Mg3D_Food/Hamburger.fbx using Guid(54b107e50acd7e24b96d7de887c68833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce8cf511f76a80a20a8caa832ad092a5') in 0.1576354 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64cd26e52f1c09213c7156000c010b66 DependenciesID=340000da8a6e27e592443f034f40903b StaticDependenciesID=76c1fd09951f95b4285c50fcf2ad0de9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CurvedPoly/Demo/Materials/Yellow Paint.mat
+  importAddress: Guid(f24e670b906ff5145afbb7e1bf679eeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Materials/Yellow Paint.mat using Guid(f24e670b906ff5145afbb7e1bf679eeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9eb5a39ff3ac654c610a1d5bb875c6e') in 0.0423389 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c32008f1db8396e93720982f77a0afd DependenciesID=067651bef2320aa5bdcb05baa14e388e StaticDependenciesID=fb3e9d1e8e0de15c872c4fd93f841ce5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cheese.prefab
+  importAddress: Guid(0c295a3501cbbd346b085a0d901a0cfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cheese.prefab using Guid(0c295a3501cbbd346b085a0d901a0cfb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ea6a6371cb603cddd95d52efa2dfdcb') in 0.0525345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afe0b2098a5a76bd5689418db69c400d DependenciesID=327e6d4f559b2f3041b07a5f4db60de3 StaticDependenciesID=ee0462ac7aba34e7759d140c5f02d7f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  importAddress: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '230a2edfd1b4b5c6672991deee1a3845') in 0.0386028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2c360f1c66b73b40b998a7408f2f898 DependenciesID=9880e2cc8581c004e12a1775f90cb063 StaticDependenciesID=b2e4bad493ac3537cb302ac08a5c77f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CurvedPoly/Assets/Materials/Bisided Normals Mat PBR.mat
+  importAddress: Guid(4e670975d66854546b802220cb5866e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Materials/Bisided Normals Mat PBR.mat using Guid(4e670975d66854546b802220cb5866e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d9405fef001bbd162eece6c02d125e5') in 0.0362034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85f9f16eff9fa71d3501ce7b84454550 DependenciesID=a5267d57d0e422421dba29d8f0fa3073 StaticDependenciesID=6b59320809da5bfd76e2023f315b78ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CurvedPoly/Editor/Materials/EditMaterial0004RP.mat
+  importAddress: Guid(80105b0c5c66e5a4fb0911b4ef46cdae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Materials/EditMaterial0004RP.mat using Guid(80105b0c5c66e5a4fb0911b4ef46cdae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0831a72cf246e41d632c1479da4ff763') in 0.42831 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95ed38ee2d58747df8bdc691e77001bf DependenciesID=401c9381b980d807ad33eea0f6965399 StaticDependenciesID=5f8d3d2aa8828b82cec7127233fa9266 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Editor/Plugins/CPBaseEditor.dll
+  importAddress: Guid(cff40e976d1f4094b9d1b41ffc6dd20d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Plugins/CPBaseEditor.dll using Guid(cff40e976d1f4094b9d1b41ffc6dd20d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '067890b0d90473c0ec286174d47bbfc5') in 0.0450032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a64fa1871fe19534cc1071992724e362 DependenciesID=d72578568d3195d85fd212c37e660787 StaticDependenciesID=8b931be7165ab7693e006e6f5b3af7f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CurvedPoly/Editor/Grids/Grid Box 6x Step 05.asset
+  importAddress: Guid(b642a7e1ec2b7d44582508834cc77e6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Grids/Grid Box 6x Step 05.asset using Guid(b642a7e1ec2b7d44582508834cc77e6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba51c1b9e478e0c6c63fe270f86011f3') in 0.0315105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a152c1c683426fdfa87c9f2425ef77b3 DependenciesID=d99630f7e3ba311a1e2e4c2b712dcd65 StaticDependenciesID=d778ef495f1eb193700c1b363fdbac6d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Docs/Curved Poly 1.3 Docs.pdf
+  importAddress: Guid(875396318e0e88d44969dd26587d9a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Docs/Curved Poly 1.3 Docs.pdf using Guid(875396318e0e88d44969dd26587d9a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24590d0092c6a8bf6bccb344fea31a49') in 0.0294415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d579aaf245d4fddf18114031ff1ae77 DependenciesID=f4f76a9d4fbec7e0d6707a239bea4c2e StaticDependenciesID=f18e7a3fbce9ef6c1d00c6dc01cb7781 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  importAddress: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1792d7689c33828d2f2fe797847727bb') in 0.0321299 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6f7029c586c9f29b9749e42e7a02c15 DependenciesID=248168db15a96d3d5e50ec206ddaafc2 StaticDependenciesID=58c6b186186993a6af1eb808477416bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CurvedPoly/Editor/UI/MainUI.asset
+  importAddress: Guid(0da89b44bf787324eb640346f6c74955) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/UI/MainUI.asset using Guid(0da89b44bf787324eb640346f6c74955) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50930e55fb22badbadee9301f74a8990') in 0.0312248 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7016f3792c410cde5e1d0353f3edb8c3 DependenciesID=2e87c3341efdbceab4d4f2825fccff6c StaticDependenciesID=4a43a54cd3a8a0229928f71dc20b7649 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CurvedPoly/Editor/Shaders/PolygonsOverlayMat.mat
+  importAddress: Guid(18d798e306815174b9044101c0e0e971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Shaders/PolygonsOverlayMat.mat using Guid(18d798e306815174b9044101c0e0e971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '841a12cdd25c167d895f5eeea827aae8') in 0.0913796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce25d482e0569b7ae0aea7dd40cbba0d DependenciesID=d02be9e0415059dc1af0b0c237a558b8 StaticDependenciesID=bd4682f53e551257b4dc7872ef57ca15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedPoly/Assets/Models/ToyBox.asset
+  importAddress: Guid(a54b5bbbafafe764492ef4da9a884e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Models/ToyBox.asset using Guid(a54b5bbbafafe764492ef4da9a884e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d43f570966c3a7c03adb40036ef4827') in 0.0334038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c60aa3e783c6191bc29ce729d920c7e DependenciesID=1f07db2651a92597fd8868a8edd26f5b StaticDependenciesID=1b1ce7549e81bcbdc179362ffdfe9b0f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  importAddress: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98eb225c45a1a6dce3692694d5263f2b') in 0.1836141 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e8b5394083bf70277e84139c0615817 DependenciesID=6807d291f9ff93dfdddae7187daa6198 StaticDependenciesID=800937976939114586270d1cda156d8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CurvedPoly/Assets/Models/Spoon.asset
+  importAddress: Guid(5f2e67bb766b2cb44b69fe6a03eed1ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Models/Spoon.asset using Guid(5f2e67bb766b2cb44b69fe6a03eed1ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96efc237b021b856beec2cd54d7366d3') in 0.027986 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bd06650e09f04eb73119a5cf9f1ead4 DependenciesID=d16c8d26904db1d8467b0b1099bd24d6 StaticDependenciesID=ecf87148c07b61eedcff0e5a29426e28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SceneSwitchTrigger.cs
+  importAddress: Guid(ad551e3ff7068d94bb69293de23e5977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SceneSwitchTrigger.cs using Guid(ad551e3ff7068d94bb69293de23e5977) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '44a7580e29d8a15e861d2fba94d8b6e4') in 0.0260049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=925fd7a4a158d98143fd2cf8ca4dc54c DependenciesID=b970f672d2cef6b9e07a5f6bdb3b350e StaticDependenciesID=6149a67e6a558bedf666fac8512fd4a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  importAddress: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11a76ca3ca905cf4a5e781366bf82d97') in 0.0916041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25d468363cbb4ec324bbef7e1fee8895 DependenciesID=31931decc1c3de68010f5ab98b4b74c9 StaticDependenciesID=479ec06a013f88c318b3be9f7d7efee1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  importAddress: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ddfd2a573a979ebd28450f32c71b72c') in 0.0287348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e44dca9894556654f10fd8dbcd5057da DependenciesID=26095c739bfff5932809f09a70a71215 StaticDependenciesID=aedc8061a106f97e9965e464e7bc1589 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  importAddress: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eb743f84629240aac36447d6b1372a59') in 0.1016572 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59253d5a6d88d3b8c5148cdd3e43c3c8 DependenciesID=0aa98b69a533438c37dc0c2e57562e59 StaticDependenciesID=712d0021f4fff3d54e8324d26bcf68a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedPoly/Editor/Shaders/UnlitColorTexture.shader
+  importAddress: Guid(967cdddb830d8ec4ebc8b1a9cb47f0d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Shaders/UnlitColorTexture.shader using Guid(967cdddb830d8ec4ebc8b1a9cb47f0d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95168f83eb732dec863f4007c6a045c9') in 0.030719 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7d7d5d0e01834d1c5c4350f22759ab5 DependenciesID=5f21e08d16084cccb8e1639eb40d3a5c StaticDependenciesID=90607d7a69047580f9fa11a014dd539f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  importAddress: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1514aee644ea159f78aaebe589fe4270') in 0.1412919 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76db4d6e2dfe72fa6b2f042ff7a74dca DependenciesID=d66266c6f0369677aec71a1339b7de87 StaticDependenciesID=9af775e8205c43324ef924abdaccaf58 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+  importAddress: Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity using Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6736514676e9136d1b1ffa01b3f019c9') in 0.0492431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9994aad999c808933f00dfcc11711df3 DependenciesID=8c6554391c295b843f9fc4eae39ce70c StaticDependenciesID=999078f337ab57b4bb3d91e4947f30ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  importAddress: Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd95b71ea56670d72abdad69649899eca') in 0.0550828 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d05244bbd24315a695b5563058c2b027 DependenciesID=eb8c97b52b3d01c018b1be6345bfd8cd StaticDependenciesID=e95f4588c35290100bf06756032d8099 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  importAddress: Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1fb5b78b00578b42256c91ea748aa8c6') in 0.0537102 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7723c88d0d9d7de7ea596ff4ce3b4858 DependenciesID=e4a8cf719650724589c7933a8d56490f StaticDependenciesID=783aa79767af29325d290e419a768f29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  importAddress: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5d356f579e00cea69941c008a42602b') in 0.0541248 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=656c406681621ff31a00e061ed2b77b9 DependenciesID=f917b74b99b982918e8b4b4f4039e015 StaticDependenciesID=c301d0de733d210ce399dfdb5708fb83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CurvedPoly/Editor/Plugins/MLabsCommonTools.dll
+  importAddress: Guid(cb982876f862dda4c84cfd49bae5a49b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Plugins/MLabsCommonTools.dll using Guid(cb982876f862dda4c84cfd49bae5a49b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31e025ed705950eb95ea908ddfc8a8fd') in 0.0318512 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17bd28de6496e562a39d26bbc7596968 DependenciesID=5e820103e3dd727525a8d4cae6466583 StaticDependenciesID=c314a10882ba229e83904dff63960ae0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity
+  importAddress: Guid(57694ed9d1cd1e340a4924c0f2eac8e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity using Guid(57694ed9d1cd1e340a4924c0f2eac8e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae553ea62bca24589b5ea91a2871540e') in 0.0534696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3adf4320ac3b1ae8e927673179aa0e8 DependenciesID=4d5726d9e483b2ee194502712fd85024 StaticDependenciesID=2195cd50b32388c0a55e26d0c7556042 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+  importAddress: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6dbf72111cb59d80f00e7663b4fb3185') in 0.0503469 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d724a947767baad9278debacc4e7f44e DependenciesID=068990366247a9abc10492fa7258dda6 StaticDependenciesID=7913ce83fe816fc985e13a1042ad655f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  importAddress: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72aa895c09b48f022b00076929193ef9') in 0.0813659 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d20f6535ef7c9ec3a5effdeb11fdafc DependenciesID=2545cf0ef702e3a346c07f4160025755 StaticDependenciesID=09e257fce39290b23c45843579a08c23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CurvedPoly/Demo/Materials/BlackPlastic.mat
+  importAddress: Guid(466452bf6f78aeb4cb20d96447fa25c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Materials/BlackPlastic.mat using Guid(466452bf6f78aeb4cb20d96447fa25c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0b6adeb27d8fc9bfb1160de131c0d77f') in 0.0297727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5d76e95be5a6d4dff5979e594563566 DependenciesID=10f30772eb3e6e186b9ccf8f42ae4098 StaticDependenciesID=aba93cb7e086b244eb0a0884c0fc4e7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  importAddress: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd9e8fc5b7f92afac1ca324c2ea1db3db') in 0.0264263 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=917f3b76e115359db11cc23965ff4a35 DependenciesID=72ab60e4965dca4396a04bfa84f72f35 StaticDependenciesID=ef8b1edf378432b262250e1fb0f2c070 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  importAddress: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e40ccd5bd46acf7ba48dbf53c8f4f427') in 0.0260578 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61d8480594e1416b7c6294fecbe92a12 DependenciesID=44d9524c9a8bc733330e1a5d3bd13afc StaticDependenciesID=0df8bda9b9a653708ed9b9b5f3491fcd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  importAddress: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f11407bc04dc23f2a6c8160f864a9f8c') in 0.0267301 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13b1649e95aa3fa878164ec17473e98c DependenciesID=21a9117bc2d59d29de3693529de41d46 StaticDependenciesID=0aeefe0c6f2db74a6bea99df5f2d85c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  importAddress: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc9599c5a298849c88bdd5b22d4acd31') in 0.0464464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41c983d92bd7256f7982da9b0bc39ce1 DependenciesID=5e934878f11fe9216f6cea9fa2f09db4 StaticDependenciesID=5d28ef55bb05d4add030e0887641b403 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  importAddress: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e4093848ba37a88feccdd11c19c6c36e') in 0.0503445 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99bd179f5ec205a161c78437f8a5407e DependenciesID=354f44a26221851a7bd3ee7195d3d282 StaticDependenciesID=dce67f9a25a511aa1c991e0e8ceba527 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  importAddress: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c7c85f3bbbca635042fe4a3f1740822') in 0.0266769 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=062bb60c066c0b5f850d246563a25669 DependenciesID=abdc973fa521050734989a72dc52dcaa StaticDependenciesID=c0ddc6bfab0119e725ca2944e315ebe8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  importAddress: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7b8283ce9fa9ccc4367ad66676d5afc') in 0.0368643 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71936af9694130f0558357a82e8674e2 DependenciesID=82f60840740fe5fa8c8b3fd8b3970ebd StaticDependenciesID=0ef17a60c4a20321754f2072c311e5ba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  importAddress: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3e58edb69c9bffb3eddbebeb3a68450e') in 0.0461659 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf5c9b7212ded6dfb79a054889d08e6f DependenciesID=8d51c90fef8b1d34404117a0ce72daea StaticDependenciesID=daacb5b85a9d9323241d4b6b29a7d024 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UI Toolkit/PanelSettings.asset
+  importAddress: Guid(ee54e1c97d6f772409b87f9a503aa50d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(ee54e1c97d6f772409b87f9a503aa50d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3d75f00df34aef0f58db667b2fafbe5a') in 0.1136842 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8ceb3ee583b88ae57e5a6c5ffbdd7e7 DependenciesID=edc93dc56490ea42d8afba67f161fbae StaticDependenciesID=a0bfd52973be480c61ad2be0d2285337 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+  importAddress: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e3d7727f5efacfb4d0f618c70e66d895') in 0.0408223 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18503933c24e55d7e6fbe208f416226b DependenciesID=f7c41d3e04c585f73fed1629083a54e0 StaticDependenciesID=bac78780346386a88a64a4872ed4e793 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  importAddress: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ecc8898f54a0dee0f9fa089e38e84292') in 0.0467326 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67a954c0c48e5e2f881d91aeeb9f5729 DependenciesID=28abc773bb83b16f352c4417be34b7b3 StaticDependenciesID=8c2fec60af6c75ea9c4749a56012bd14 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  importAddress: Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1102191513d701b4bb6daf3df3a70d98') in 0.027281 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7acd8923b5672597bb6c802d6290e764 DependenciesID=e3f873fea9ec33982197571e78ce21d3 StaticDependenciesID=2664abffca018359daf6d755e163a85a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  importAddress: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b6ad603150b98456fa75e9c214a29e9') in 0.0371521 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4b40928f4a58bf809ec82b78b76381b DependenciesID=5deb1935a3581b43160779225c1389e8 StaticDependenciesID=9e06871b4262160f8fcd67ec909dd8f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  importAddress: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae46a2d91aa65a188e99de2d11031b23') in 0.0417576 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c49bc00ef5a65116c85708a6f29dfcd DependenciesID=d9a1a54177eecb80e1b544f0b81019ea StaticDependenciesID=068ac2821dacc3dff5c8d3664b141deb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  importAddress: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db4843ba8d1956234868345814003d3a') in 0.0569833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eea043550e3332f8759fd358afdfeea0 DependenciesID=605ea2213ca3bb1f4d99fd6bc5e55f86 StaticDependenciesID=f2f0736f3a5db41089dc2de22e52e727 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/Donut8x.asset
+  importAddress: Guid(45403fcdc2e66dd48864b63e837a28dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/Donut8x.asset using Guid(45403fcdc2e66dd48864b63e837a28dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9cca6e436795d4d8574786a168b2c1a') in 0.0299612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5639ce78914467ba1d286f58b70dcc3 DependenciesID=58983c356dfecfb8afa9cb490b8859f4 StaticDependenciesID=afb681729d13e0f770120b11ad3b628e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/Cylinder1x.asset
+  importAddress: Guid(0259c28f97aa9c3468694888b5bd100f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/Cylinder1x.asset using Guid(0259c28f97aa9c3468694888b5bd100f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a1713c83f103ba3c286dae1fc2f88210') in 0.0283385 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40a78f7db17632324f11c81c26771855 DependenciesID=a22e082024c79ec8b6d9487767b8a690 StaticDependenciesID=466be54a107c3927a0b28a623e50c6df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/Donut4x.asset
+  importAddress: Guid(508b4eb2cd29f6b46a7978d29254ea33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/Donut4x.asset using Guid(508b4eb2cd29f6b46a7978d29254ea33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4bf13084f65b9c00d3b60b66a1ca41e2') in 0.0296324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f02f41aed65511bf797bb675fd7aa587 DependenciesID=1d7a3f4ae115d0c456232e054ebe500b StaticDependenciesID=6ab6feb09beb425cba69821797f5f3c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/Sphere.asset
+  importAddress: Guid(9f54e593d40dd1646a200cf2aed14647) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/Sphere.asset using Guid(9f54e593d40dd1646a200cf2aed14647) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '75d306bc4b9087dc2860089a212bd948') in 0.0290727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=108e2585e15e2e4b016cfe5a3959ea78 DependenciesID=967b0449e28dca46ad40976877104bc9 StaticDependenciesID=913b244a972a246ecd2edd6e88dec894 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/QuadsBall.asset
+  importAddress: Guid(7365f3023f18c424b8f41cd0a81c28e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/QuadsBall.asset using Guid(7365f3023f18c424b8f41cd0a81c28e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '732b6d73718dc40a7525d9b1020854d7') in 0.0278726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1eb97fa977a3a3184bf1905115d578bb DependenciesID=edb9879d55fc9519154ca5e95c163a58 StaticDependenciesID=a70dcce491af2bfe63a4345f7f2ddd7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/Quad1x.asset
+  importAddress: Guid(31667062caae0f04daf0a498b06518a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/Quad1x.asset using Guid(31667062caae0f04daf0a498b06518a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '063281b1f74f9bd63e393573d94d0366') in 0.0296653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c14407f6627c2a4886dcd44356b0c087 DependenciesID=3382276cebcd19e2dcde47aedf24f9aa StaticDependenciesID=f6f6438468c79b8eea699433238833c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat
+  importAddress: Guid(3b5cc91c3bf8cf74391252247f52fb59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat using Guid(3b5cc91c3bf8cf74391252247f52fb59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7db18e214ea1e35f2fd1766699284d5d') in 0.0341297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95209ca569b95816d5bc29137969e22a DependenciesID=1fb62e88c3f25414e9eba432208eed1f StaticDependenciesID=562d8c0541eca7974b7663dc516edd06 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/ChamferBox1xUnwrapped.asset
+  importAddress: Guid(4c35430f30d2f4d4197d77f973c8bd47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/ChamferBox1xUnwrapped.asset using Guid(4c35430f30d2f4d4197d77f973c8bd47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6fa81936488a2d848c5155d70d21cd0') in 0.0293203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6694efd0740f83c23b84e32f781be407 DependenciesID=d552bb5b0de98e891cad8e18d77a9731 StaticDependenciesID=21f64658f927a5a6a749398d2945a304 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/CircleUnwrapped.asset
+  importAddress: Guid(f7e7aab4f933caa4083dae533fbac100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/CircleUnwrapped.asset using Guid(f7e7aab4f933caa4083dae533fbac100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fff4181eff237f0bdcdb9dbe2cc87361') in 0.0276431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4f186ad06f1cd97b03c137b1911e272 DependenciesID=c6043c5a0fd46e1df022eb0294deadb9 StaticDependenciesID=aebf63a2e08892d796152c1bb206b2fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/Donut8xUnwrapped.asset
+  importAddress: Guid(e5e6f4928ad88934a8fe6c4d7879e95c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/Donut8xUnwrapped.asset using Guid(e5e6f4928ad88934a8fe6c4d7879e95c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e608c88fb902a56db6651cb107c04749') in 0.0275686 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06c68e1f2b87101b4b4782357530a7d0 DependenciesID=f32571eb07637a704e33ff0ad5596c9d StaticDependenciesID=e7450f59be14b490c487fe454f8bb78a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/PlateBorder1xUnwrapped.asset
+  importAddress: Guid(8f28d5929ce432c4093924751ef045f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/PlateBorder1xUnwrapped.asset using Guid(8f28d5929ce432c4093924751ef045f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '34fe675ebc09e83b8677bd1347f7d7fe') in 0.0304464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=883be54612ea7a20974b58c9bd1bf6bc DependenciesID=8004ddf98ca4f8a0aaf72d288bf183a4 StaticDependenciesID=a53c537c9cb169d776318bb31023e65f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/Plate1xUnwrapped.asset
+  importAddress: Guid(9fe23a4eded1b7e47bb93aec61770ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/Plate1xUnwrapped.asset using Guid(9fe23a4eded1b7e47bb93aec61770ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fedfeb0acd6453cf6e79d77a01aa9455') in 0.0309254 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb0186d8019f5a24e358c699c75ae1e9 DependenciesID=a0d211050f9b7d41ad1814fa43979291 StaticDependenciesID=57331ba415ebaff05af78501d83b764f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/Quad3xUnwrapped.asset
+  importAddress: Guid(b2842e4e8dc75f64ba1dd34b1cc37e0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/Quad3xUnwrapped.asset using Guid(b2842e4e8dc75f64ba1dd34b1cc37e0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd3f3da6c98b81d71a9dbce9df4fe50d') in 0.0306617 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2a98331c0f312c97838b4925a84e6ea DependenciesID=178f92be1a77c19200fbdacfe8c47115 StaticDependenciesID=971c958e181e1d14d12de6e58f806b76 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/SphereUnwrapped.asset
+  importAddress: Guid(e336863291717b74094aa24498615a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/SphereUnwrapped.asset using Guid(e336863291717b74094aa24498615a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db37719bc1a699592cecf239f7cf3034') in 0.0274342 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f40917e3ba80dfd2fd0abf58156e8a1 DependenciesID=8f64d736dcb6885a7b1bc5400073d5aa StaticDependenciesID=1ff4b02511b5e79bef157f0e16e23055 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/actions/edgemode.png
+  importAddress: Guid(49e2277e630ab924495cfc7f306a257b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/actions/edgemode.png using Guid(49e2277e630ab924495cfc7f306a257b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c0df2032b0251ff97de8bed87dc9b1f') in 0.0644503 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57cadd06e272e921f8af19b325f3a4ca DependenciesID=6a4cc0518bdd0010f49d5d73aaa0b196 StaticDependenciesID=36b8ce9931c18d7df5582823eb33b24d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/actions/selectAllEdges.png
+  importAddress: Guid(45c98a2779276684d83705b7abb9f602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/actions/selectAllEdges.png using Guid(45c98a2779276684d83705b7abb9f602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3f4fae11550d774237d414017936a916') in 0.0448427 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd6ae085878197da25333639c40ac066 DependenciesID=d952c49df7d61b20c64360803e86f8df StaticDependenciesID=1f5550d91d196ac5396264ecd91e4fe3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/actions/polygonmode.png
+  importAddress: Guid(3b405bc8e463a1649aa042717ed4ff21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/actions/polygonmode.png using Guid(3b405bc8e463a1649aa042717ed4ff21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7832d7467848e83d130d18c9bcc69332') in 0.0341835 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d4bb75f005fa52fba3a8d9a4c595293 DependenciesID=e2203ce80bcde06e748e42d2fb968f80 StaticDependenciesID=2b46c74d77b3c618ea487580f381252e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/actions/ringmode.png
+  importAddress: Guid(1aa3cf9c85963bb45826693fe339d0f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/actions/ringmode.png using Guid(1aa3cf9c85963bb45826693fe339d0f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ddf21aae5b54df3fe77f5f80ffa85e6') in 0.0364305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3b75150d4c2e3a13d6346c2d33d1810 DependenciesID=5184201997a6ee3d2fde76807d8da8c7 StaticDependenciesID=d5d9749775f66d71c71c46fe68d39280 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/backgrounds/savebackground.png
+  importAddress: Guid(8ebab9a084820e148bfadbbdc63949b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/backgrounds/savebackground.png using Guid(8ebab9a084820e148bfadbbdc63949b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4e387436a3375d93d63279db870e8004') in 0.0346666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52be2fe20d84549bb8589172cfa6dbd6 DependenciesID=476c7397c962ddac216754c2870b63fe StaticDependenciesID=860ef84873ac9b6de6b3f14415f97032 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/backgrounds/snaptogrids.png
+  importAddress: Guid(094133138e68aa943b3c16ab6bdde876) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/backgrounds/snaptogrids.png using Guid(094133138e68aa943b3c16ab6bdde876) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '981b91770f44789f8a0f4080f5e59f44') in 0.2293719 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=193ffdef41fbfde4c25413a08e08676b DependenciesID=fb42470afb66316b01cd8dd2dd040a39 StaticDependenciesID=c34583aa1f32997d545bad60ec1c5125 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/create/createCircle.png
+  importAddress: Guid(0f1145322a5a93f4aa12d93754dc87f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/create/createCircle.png using Guid(0f1145322a5a93f4aa12d93754dc87f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db02f1b8a65720cb4d761071a54a36d3') in 0.0443284 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d855aa31da7690effba5ec20ede9832 DependenciesID=5488e9b200f1338ffd51631d0401c5a3 StaticDependenciesID=8dd5a0d64a90c7ad99c22e2389301f27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/backgrounds/loadbackground.png
+  importAddress: Guid(412a9f174cc77d349960780cfe403678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/backgrounds/loadbackground.png using Guid(412a9f174cc77d349960780cfe403678) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2c52b027901c22ebf84d46d6e9f58b1') in 0.046043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=179a54af62d5f820b91aef15222f2d1b DependenciesID=3ba9a1eb2760183d0b909c9f054955df StaticDependenciesID=bba3e0b1e47f2ab615c2e0e2390462d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  importAddress: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '334c1494659563f625559b857ff4613a') in 0.0398643 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1428ace915240afa50d2be3355fc520 DependenciesID=5d80eade8f3ba71b3349bcc94ff3941a StaticDependenciesID=76664a18f50202a4e669f6b3997590d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/create/createRevolutionSurface.png
+  importAddress: Guid(2d3e8f98762ef154ab0c2c4240ad8dbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/create/createRevolutionSurface.png using Guid(2d3e8f98762ef154ab0c2c4240ad8dbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b25b16d6aed7836dcdc4cfecc5e3de6') in 0.0353341 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ceea5ac021feab4f8effbfda91c8a00 DependenciesID=56a66e90658bdb73c9e9099e22163c88 StaticDependenciesID=e6cc45d76d59b4baabaa95f810f5daa9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/create/createSphere.png
+  importAddress: Guid(4b3abfde9eb8e8740a52e29797e4397f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/create/createSphere.png using Guid(4b3abfde9eb8e8740a52e29797e4397f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a1f9f37c77b317b716ac111cf2ea465') in 0.036844 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d736e8f8f5b28420c6e8e9b62194f8d3 DependenciesID=4b6dba4617b5920de8f4ce875152aa34 StaticDependenciesID=dc564be2c638aceec4e8cfcd50c11f67 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/create/createNGon.png
+  importAddress: Guid(ee6b36e506af2254598689e39d24ce8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/create/createNGon.png using Guid(ee6b36e506af2254598689e39d24ce8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2d457753454204dbc7d07845c6a5e51') in 0.0337209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b746e7ed678f8a6aea9dbff0a41d1fe DependenciesID=bb63eaf6fe4b12e26adfa8a58782214f StaticDependenciesID=5f79dbd798bcd62630339a55393b7335 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/cancelSelectedVertices.png
+  importAddress: Guid(63de6a724b495e04e8fbfb3a62ad3dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/cancelSelectedVertices.png using Guid(63de6a724b495e04e8fbfb3a62ad3dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ab75cebab2a25cbcc6536c92c5f57d1') in 0.0361536 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af1245fb5e41ed4c963eeda945a40a3d DependenciesID=35bc047291db21e2d14a86fb3a770b70 StaticDependenciesID=c7bdd1a4d75849d1e469fc8ac7195e21 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/cancelSelectedEdges.png
+  importAddress: Guid(a396b24040ca3124486c07bb4d71118e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/cancelSelectedEdges.png using Guid(a396b24040ca3124486c07bb4d71118e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e74ebf2c05aedea6f844d0c85b1cdc34') in 0.0386858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc2792757737d2dc3e0aecedd83f20a4 DependenciesID=a19802c6fa213fb35f6702c7d1099f1d StaticDependenciesID=e48d63b7088d0cb2d106153f15f72b44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CurvedPoly/Demo/Materials/BluePaintChecker.mat
+  importAddress: Guid(9b2e3c8e59bc95846987fe53593eb8e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Materials/BluePaintChecker.mat using Guid(9b2e3c8e59bc95846987fe53593eb8e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1981bc5d567fcf27485192716d599616') in 0.032468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32f4df5041608a3b7b5142e4066d0498 DependenciesID=63d0c75eb322144f0b6c836ec5da2215 StaticDependenciesID=f0bec46d1604a5071b3ec59821f22c0b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/duplicate.png
+  importAddress: Guid(edac341453126f94e91f612fb066f618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/duplicate.png using Guid(edac341453126f94e91f612fb066f618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28e54c1e74804cbefb23e9d8deaf22d4') in 0.0396768 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=694c1a218bbeb7840df0ee76d959a060 DependenciesID=54e6742906c2e9cb38d1c6cef44d28ff StaticDependenciesID=d76493d92672a9bc7e6eeab6a9039e44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/createacircle4.png
+  importAddress: Guid(60849b7664e1f3849bba1639cdab421a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/createacircle4.png using Guid(60849b7664e1f3849bba1639cdab421a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8fda0310659282a3e1c6a75d67a37afd') in 0.05098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34cd3355db78c006dc9c89fe039cb46f DependenciesID=cc0de46005e4205b0ebca9b03a77e904 StaticDependenciesID=cc22552e6a7580c3ae7b569b57a8e2a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/inspectoption.png
+  importAddress: Guid(449a3f43a44e18548856429475dcf6fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/inspectoption.png using Guid(449a3f43a44e18548856429475dcf6fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0be4fd9a950e510111af3849524f47bb') in 0.035591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da93c0ca31278e1ae276891300b400c5 DependenciesID=af42435b4d6e99bdd286983869d28a1f StaticDependenciesID=32043141b9721871041e8e3db537afa4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/quadalign.png
+  importAddress: Guid(46feb0f1909c33a46b764264976b9b42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/quadalign.png using Guid(46feb0f1909c33a46b764264976b9b42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '80c37cafd839085fa919a6794608fc29') in 0.0515792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=522c6d60e5866277387759292cdfa880 DependenciesID=28cbeff68adab98c163c5ddb221d8ef2 StaticDependenciesID=da1039eede269415df6c47775bb06020 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/makepolygons.png
+  importAddress: Guid(b223739f5ea82f441b37586debe20197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/makepolygons.png using Guid(b223739f5ea82f441b37586debe20197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43331944e88814a7def2ab359108af04') in 0.0320602 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=674223356c05be71c7f90de29966142a DependenciesID=ca8594077f22fc3baa86b90e30bf35c8 StaticDependenciesID=fa7f6e04182c7bc0280aa8ff7c9835b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/elasticities/curvaturenormal.png
+  importAddress: Guid(1581a076cdf95b6419a4e5fa3458aad8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/elasticities/curvaturenormal.png using Guid(1581a076cdf95b6419a4e5fa3458aad8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a3e0e579dc43d333f4769dc97c5b0d7') in 0.0378228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5a13b9bad740808323459376c7f44c4 DependenciesID=514b2794791509478c196871a7804f2e StaticDependenciesID=801b311cb807a75d19bbcaf60ffafb91 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/weldvertices.png
+  importAddress: Guid(f2cd9d263c55ca84b9efda8a91e8378f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/weldvertices.png using Guid(f2cd9d263c55ca84b9efda8a91e8378f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33015e77fd7fdf5435f541e2e092881c') in 0.0453763 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29965ea33a1d7b8b165a14dda5935723 DependenciesID=022841a1bde8e87df2c7e4cddb1f00ad StaticDependenciesID=256e3a46fc4af1b6dc4fa3c46b6abf99 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/edit/subdivideedge.png
+  importAddress: Guid(0c8c16039838d8945a3a55fecf6fe7be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/edit/subdivideedge.png using Guid(0c8c16039838d8945a3a55fecf6fe7be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b3592820fc7cea023b5c5542967898bb') in 0.0508933 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea89e04c9c2a693db07842d4a06caed5 DependenciesID=9adbb5a5f9fc0fed03a03512ef30584d StaticDependenciesID=25f7e979f49de210437cc2ad459cdad4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/general/edit.png
+  importAddress: Guid(cbd947fedf6826e4b99e0cbd28dedc7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/general/edit.png using Guid(cbd947fedf6826e4b99e0cbd28dedc7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7bc068d7b273932003bf0ef311079cf2') in 0.0595573 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4823bf3780cb4524b1d1bda70f9a75c8 DependenciesID=89212aa662064fbd794bb3e1a689a149 StaticDependenciesID=e812eda0649b37b3bd823ef521013c8d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/general/homepage.png
+  importAddress: Guid(33c855d76e5993c4da549dc12b897da1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/general/homepage.png using Guid(33c855d76e5993c4da549dc12b897da1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96e51efd9f446ecd37f950a9857f258f') in 0.0730443 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=289dd6e5e44e48fb961688f2e2ef21cc DependenciesID=ce6903d950505368a671cd8e7db01694 StaticDependenciesID=cc68b2476fa767c10a3fa30b9496fcd9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/CurvedPoly/Demo/Materials/Materials/Checker.mat
+  importAddress: Guid(d919efb3c20f1474c958f4025e20f0b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Materials/Materials/Checker.mat using Guid(d919efb3c20f1474c958f4025e20f0b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '21431276313d115979d18b71f25289b9') in 0.0556094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af81210964cd887122fcec448b9f70c3 DependenciesID=2a9babe960ac700a583069ea8bdee088 StaticDependenciesID=0cfa835207f7d080062109c716050bc0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/general/previews.png
+  importAddress: Guid(596a91b0c32a8da49ba5ee39c6b33c3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/general/previews.png using Guid(596a91b0c32a8da49ba5ee39c6b33c3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f46a12b4fb2372f239529e25642b482e') in 0.0634453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29f854d84ed8680c97aad13777718238 DependenciesID=783a426e2c3bfca947cb813ad744e4f6 StaticDependenciesID=d9e382e69bf038848eb03a9a70d0c769 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/general/reset.png
+  importAddress: Guid(e93928e5e7ae73440a253f316fd127e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/general/reset.png using Guid(e93928e5e7ae73440a253f316fd127e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed76d19b7f6c84431d4f3b127d3d999f') in 0.0733674 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=664a9f6b2a6923c2f74787df62cb0a85 DependenciesID=1bd4f70d82fe0f49ee4ca2813c9ef5b9 StaticDependenciesID=97fc0cd916f51158761058dd0b740f82 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/handles/handlesbehindobjects.png
+  importAddress: Guid(547af5138b014b042899778dd08484e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/handles/handlesbehindobjects.png using Guid(547af5138b014b042899778dd08484e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b681ec5e669eb825d13b2dd98003a683') in 0.0516336 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2443617b4735a433e894ace04bb058b9 DependenciesID=8d5b49a74e763212a0d7a6a6bb2472d9 StaticDependenciesID=8937d86315f4451c789971f8d5e71b15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/geometry/hideunselectedgeometry.png
+  importAddress: Guid(38fd0df36293193459a9c8dde0085dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/geometry/hideunselectedgeometry.png using Guid(38fd0df36293193459a9c8dde0085dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '41eab9baa8d28316606c57523a1575be') in 0.0751466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6341f0a3d08d17eebfc06269b9a60f7b DependenciesID=71b75ea9b99da9850ac8fcfbd251ec54 StaticDependenciesID=cef9cb069a82666370b0f6951c7dcf32 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/general/info.png
+  importAddress: Guid(1d522a767184af04082ec516e451f242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/general/info.png using Guid(1d522a767184af04082ec516e451f242) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1164e75feb91c9a3617e0218dc25b412') in 0.0346918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65900a18a300b191dc995ac81df2d65d DependenciesID=3d7858cfdff8ea609f7520f36254f1c1 StaticDependenciesID=6365ad04816b70de233a1f916f62be93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/handlesfunctions/backtoedge.png
+  importAddress: Guid(f55f29b62ef3edd429e8ab57f49b5ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/handlesfunctions/backtoedge.png using Guid(f55f29b62ef3edd429e8ab57f49b5ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad13fb8e4e2e9cb4883b638aa34d07d5') in 0.0473569 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a17443902b184df8ee31b01bbe8a078 DependenciesID=fc071f25c5449fa53d682a268ac0a609 StaticDependenciesID=85916265d8dfd546b10f197f3fe4f27f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/handles/polygonshandle.png
+  importAddress: Guid(64d1e5e314e181a4793b30e51118f31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/handles/polygonshandle.png using Guid(64d1e5e314e181a4793b30e51118f31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb5527e0df6a24b709b626911a9ec3c4') in 0.0682591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c6852acf0303a9dff446c657891751e DependenciesID=61bdae3285461cf4e42213563001f734 StaticDependenciesID=394bf6ce1cd373711e22ac92022451f3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/close.png
+  importAddress: Guid(1cf9305bfb29b44499cb775a21f2cb9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/close.png using Guid(1cf9305bfb29b44499cb775a21f2cb9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db69df5d30748efab0f6070eaa647ff5') in 0.0672673 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=554341a9e61f76b4866c1bdb37fb88b0 DependenciesID=ba6c740d9847285cbd24de1e38f6ed4f StaticDependenciesID=d3c8cf58fe9a9a7f1d3fda46f4577af6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/handles/pivothandle.png
+  importAddress: Guid(33f1188951796ea4b8960aa8cd95ab9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/handles/pivothandle.png using Guid(33f1188951796ea4b8960aa8cd95ab9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee6d401251ccf21d895cb10c51fdfde8') in 0.0537344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c87cc55106a3c5af90b6c630635257c3 DependenciesID=c0d38291a66fd4a3237839214e68f467 StaticDependenciesID=b61abaae60265facc6e0da7269864b66 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CompositeTrigger 1.cs
+  importAddress: Guid(17e1d373d55cb2e4b9a506ff0f1fe8c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CompositeTrigger 1.cs using Guid(17e1d373d55cb2e4b9a506ff0f1fe8c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0473cfa3457cce5099b52d6a3f39b429') in 0.0424857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=491ec36ebb68e09b562edfba9fd82efc DependenciesID=d98861ade65d51a772465282476e7257 StaticDependenciesID=1a3a406fd53e2d52bb9f588ccfe7f433 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/handles_selection.png
+  importAddress: Guid(5f59189e64393fa43b47a6824a04edbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/handles_selection.png using Guid(5f59189e64393fa43b47a6824a04edbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '869d002d303d7b3027944b76858560d0') in 0.066284 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22f4302e80d7fb3903ada38d2a7c3dcd DependenciesID=db8cb2717b5f9279d8f04b4ea538039d StaticDependenciesID=8d7258009d8d8497a00eaf5f52d2fa8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/geometryoperator.png
+  importAddress: Guid(05b763dd680e4104ca0a0da3fc0c10f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/geometryoperator.png using Guid(05b763dd680e4104ca0a0da3fc0c10f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2bc8dd825c43579f0df79253b585a35e') in 0.0381301 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d153669ad2a4e62db109229210a3c35 DependenciesID=78b44644893f28a924abcec7eec89707 StaticDependenciesID=86bdc7810c292a54bf998d8510d50cae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/shapecontrol.png
+  importAddress: Guid(f4aa9c3039178fb46bfebd734b91c128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/shapecontrol.png using Guid(f4aa9c3039178fb46bfebd734b91c128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d92e6d15eb799a60e4320677323c5d1') in 0.0514167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22f57ff78cb17b42972ad7216e625270 DependenciesID=aa8550a0c4b5120c018d69b8d8932ac0 StaticDependenciesID=367e8ac33bfd66e882f27b2200b1c055 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/meshedit1.png
+  importAddress: Guid(cdf51460db665c04fbc91c583cdc941e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/meshedit1.png using Guid(cdf51460db665c04fbc91c583cdc941e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a04b50415a6d98003f29b19ea2e7dffd') in 0.0607693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ddb4d3a82b9fdb839419c6bbf498cf2 DependenciesID=54f67799ed5c74dcbad9102e8d1091bf StaticDependenciesID=d67dcc51a3c4f5936518b82207690f15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/selectoperator.png
+  importAddress: Guid(ef6652d16615f314c904408167510fa9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/selectoperator.png using Guid(ef6652d16615f314c904408167510fa9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50e53d12a11dcc5db294f515b744a8ff') in 0.0384325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f3661c8cfc3b9b89d179162f1f76ba1 DependenciesID=411d7c8ee72c2673ed1726cd049c6da3 StaticDependenciesID=bedbb54576ec30fb952d9b3ea7e29654 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/shapeoperator.png
+  importAddress: Guid(4078cd613741e3f478e2119be96a80b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/shapeoperator.png using Guid(4078cd613741e3f478e2119be96a80b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e96924897f7ddff397e0d24e0d96a86') in 0.0651082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=377d92c9c29b253ea8698f6f57aba04e DependenciesID=d00bd234bb4caab8feeb9ff21782249e StaticDependenciesID=5deb0d664cc6819ec6a9279ee319d182 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/tessellationoperator.png
+  importAddress: Guid(9009797204140724a95b5a9d462dcb12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/tessellationoperator.png using Guid(9009797204140724a95b5a9d462dcb12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'afd5dbe90048fbe0f6694e51745a0a57') in 0.0625785 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98cff17f5558c5e442a2731068935fd1 DependenciesID=2b2e115885e3199ad1071917d70fdfad StaticDependenciesID=8652cb1de7163d4cee208437dbbd16bf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/shapecontrol/mirror.png
+  importAddress: Guid(f81bc3efa003c674bb2ce722c5344f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/shapecontrol/mirror.png using Guid(f81bc3efa003c674bb2ce722c5344f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5a9c51ea0f1664e0207288b36b46a8e0') in 0.0520917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a6e0c46134c1f1621e20c3701af6d7f DependenciesID=fd9e092450ae92c349a1697a150876c4 StaticDependenciesID=4b0ff7cf04b09f335d8edb80fc82624b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/surfaces/circle.png
+  importAddress: Guid(fe931b6f173272a40ae550b6086a46d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/surfaces/circle.png using Guid(fe931b6f173272a40ae550b6086a46d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '910f64c529de0743e14568a99c327dba') in 0.0343461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1a88dc0276a07ce45e0d178d3dbb638 DependenciesID=5124623d099bd073145d3dd6154e68fe StaticDependenciesID=c39111375b7a854d93a2841bea6e133c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/shapecontrol/transform_1_1_1.png
+  importAddress: Guid(6d79cb4b8f20cb249b66e21b12e86aac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/shapecontrol/transform_1_1_1.png using Guid(6d79cb4b8f20cb249b66e21b12e86aac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '25482a0541e7df5bf1f2cab0badcb3eb') in 0.0615326 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8974915be616fd06569d2b21bca091b0 DependenciesID=e34b1de9ab7ea4243767b27003597991 StaticDependenciesID=9009bbb29f7ab87ddc05596a749cf4ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/shapecontrol/sparklingtransform.png
+  importAddress: Guid(8198acb98a52c6d4bb7c5288e928cba8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/shapecontrol/sparklingtransform.png using Guid(8198acb98a52c6d4bb7c5288e928cba8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '985e06107a37cb8b41366c9c06957261') in 0.0622308 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbe369777ad10bff860b0cde1597538a DependenciesID=6a9ad13c54dc960496451f7933b99489 StaticDependenciesID=6ab8c85593d72866cfa0a54899716ea3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/surfaces/ellipse.png
+  importAddress: Guid(ed7c1899f066f444a8c3d03b6c239e2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/surfaces/ellipse.png using Guid(ed7c1899f066f444a8c3d03b6c239e2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '287500487209554dafcf3e13beedcbe5') in 0.0390797 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=926b8eb5e8c9c671658437f9d582bb01 DependenciesID=40c444047e1d67bed07461ff96b06411 StaticDependenciesID=2aa7c41c1eb86d168bb70834a72ab242 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/surfaces/revertnormals.png
+  importAddress: Guid(4df600237da619748940419cfa01ae2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/surfaces/revertnormals.png using Guid(4df600237da619748940419cfa01ae2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '937372da4f809155207171e70ade6b2f') in 0.0388802 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa9ca1e3cfb3c81a58f32330b8a00a99 DependenciesID=e200c6ea4d3e2c8dbebf59cf0b739f81 StaticDependenciesID=0d442b3f95e9316342079c87ddcbfa5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/tessellation/edge_surface_interpolation.png
+  importAddress: Guid(68e53f73e6078b04da4c69f7e92dae4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/tessellation/edge_surface_interpolation.png using Guid(68e53f73e6078b04da4c69f7e92dae4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49b02e900fb2053b9c0397311ac2ecc1') in 0.03946 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abc2a66e3e420592482e101a03018c2c DependenciesID=192aaac2e1864e011a99362b994c6528 StaticDependenciesID=6cbba73feac33eb35746a698b93e9e31 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/surfaces/revsurface.png
+  importAddress: Guid(76381f75ff5bc9a4bab5fff2bef7dd1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/surfaces/revsurface.png using Guid(76381f75ff5bc9a4bab5fff2bef7dd1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '30183402cbc48e1fc976ad0302974d65') in 0.0366956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=215902eba684fe7ca59d836e44a6a5bf DependenciesID=430e54183333321570282e990a46a364 StaticDependenciesID=361192ae3f55342273473f4029ec6928 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/actions/ActionsIconsDB.asset
+  importAddress: Guid(24e347ebca67799469731d341e78e266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/actions/ActionsIconsDB.asset using Guid(24e347ebca67799469731d341e78e266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e042ecffb4a1db667a8b7ca401165e09') in 0.0287926 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69525a8c366d0aef98804c8e9e71f8fe DependenciesID=1fca87f8ce7d771cb602ac59bb9add7b StaticDependenciesID=d4ded9e17981c7146ea95faf367fa9c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/unwraps/edgelengthunwrap.png
+  importAddress: Guid(05211db0a73631c40996bf633ffc9ceb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/unwraps/edgelengthunwrap.png using Guid(05211db0a73631c40996bf633ffc9ceb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f7a11d0c92393afbd40d6f12aab212d') in 0.0366706 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9306abf86aa55a1c7070b9314516fddf DependenciesID=f6f68208fc0044585acd44fc87dd95b7 StaticDependenciesID=1055e8063d524a74570b4fd71103b1fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/unwraps/clearseams.png
+  importAddress: Guid(f4a2ba1034f86bd4ba74179705ab3de1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/unwraps/clearseams.png using Guid(f4a2ba1034f86bd4ba74179705ab3de1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aebb54d8cd0f08cc076791c550521e6d') in 0.0706202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e53452c951939030fc98a6bb336a8471 DependenciesID=e281a5368e222482df48767907e40089 StaticDependenciesID=b80986aa20230970e8fb68a3a1ff3da5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/transform/importcp.png
+  importAddress: Guid(15f7ee467cf8f994bbeb0b8478c31e1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/transform/importcp.png using Guid(15f7ee467cf8f994bbeb0b8478c31e1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cdb7dd4230c9739c4fd7d5f5b4c44426') in 0.0386228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c478bc472bbc44eb02d6dd15afba5ee9 DependenciesID=5daf91d5fec1f1f50b49baf88cdb2f11 StaticDependenciesID=b03d90c6d8de255880dc4dad0ea48dcf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/uv/defaultunwrap.png
+  importAddress: Guid(37487e4864d400d4b986c96ded26a763) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/uv/defaultunwrap.png using Guid(37487e4864d400d4b986c96ded26a763) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa76cbcaf9c10e6cf5f3509994c9cd2c') in 0.0396206 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e50a3f951f9af0ff614f98d07b24aec3 DependenciesID=2115dbf0103651cb62ba9297cc0855d7 StaticDependenciesID=ca630d149030528266678a32026d8db0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/uv/unwrapgroup.png
+  importAddress: Guid(83a7e0f51e27fd948834a316e9a52b35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/uv/unwrapgroup.png using Guid(83a7e0f51e27fd948834a316e9a52b35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b875c16ccb9c5cf491c7f3ba9fca1971') in 0.0412613 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79289cd7fc13991f71a40a8a0e8ceb42 DependenciesID=434481daa99acae6b542d73df2fcf07a StaticDependenciesID=c220023a00f587760d6568ca8be3825c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/uv/hidebyunwrapgroup.png
+  importAddress: Guid(2ebccd4e9919e234194f6c85be2e99e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/uv/hidebyunwrapgroup.png using Guid(2ebccd4e9919e234194f6c85be2e99e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8de0f3c7826bf2c38cb55eb0b025a917') in 0.0377449 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ed26231a401a7b47e3c51edf0fe5aa6 DependenciesID=07e53dcb5ba3d7e56c6a2787295d9fec StaticDependenciesID=217f2ab307438844a7591c7dcff26085 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/uv/uvhandles.png
+  importAddress: Guid(b049d1a993d163c49b827b9f7ded133b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/uv/uvhandles.png using Guid(b049d1a993d163c49b827b9f7ded133b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7e0f1a2584af006cae3c283f921f6823') in 0.0394817 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50dcc644cc8d9bd868737fcee5c74a55 DependenciesID=f42120aff8cfc3e644d911be3876224e StaticDependenciesID=1953d563b4e42008a75a85783b0193a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Actions/AllVisibility.asset
+  importAddress: Guid(d8371f388321823408e4029e126cc2b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Actions/AllVisibility.asset using Guid(d8371f388321823408e4029e126cc2b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2ddfa50cadfae430de832bf5e6c0e9f') in 0.0287 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9ae48410a08e192ea5058b3e110f8ce DependenciesID=024d445200f7ef7f77fd3dcf88674ca5 StaticDependenciesID=6ca6682365a0c336ec888701822fac78 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/uv/uvsimplifyhandlesmulti.png
+  importAddress: Guid(8c44aea4063b9d24ea47ab2bc8c531dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/uv/uvsimplifyhandlesmulti.png using Guid(8c44aea4063b9d24ea47ab2bc8c531dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '21b058513c9f9cb22e37c0f329a44ac7') in 0.0320711 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a60f3b10e0db238c88c366fbceddb65 DependenciesID=74ad354cb46941dc6aa16aa1daeaa386 StaticDependenciesID=d26e4f756542d1f24d1488a2adee947f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  importAddress: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '917532d81e569d1d79249f63b7d889e3') in 0.0648052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=370f7db66932a2abadecfb91147c1991 DependenciesID=04c68b557f216d9e18db3628816cdd4b StaticDependenciesID=b64f8036c156bcce2f5baf95f04de2f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CurvedPoly/Gizmos/MLab/CurvedPoly/CurvedPolyAsset Icon.png
+  importAddress: Guid(e96d65760ee510b48997866d6dba418d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Gizmos/MLab/CurvedPoly/CurvedPolyAsset Icon.png using Guid(e96d65760ee510b48997866d6dba418d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35199fc3c029d047dc8e16b490badf53') in 0.0368867 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d1876ac3584d970b1708ab048fbf5e1 DependenciesID=db902b6917fb7bf23c6d075cdf89a478 StaticDependenciesID=fcf0654ebc287f90091e94aacf282a0b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CurvedPoly/Gizmos/MLab/CurvedPoly/LoDs Icon.png
+  importAddress: Guid(e31ceedd1045aba4ba769dfb0aeb3643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Gizmos/MLab/CurvedPoly/LoDs Icon.png using Guid(e31ceedd1045aba4ba769dfb0aeb3643) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da54b08c10399f64183cc727bc48d9bd') in 0.0363345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bd4ac727bf90d9161b9f3f99ad3e5c2 DependenciesID=ed9c7d41019970e8c7a9d175193f3ea6 StaticDependenciesID=5e65db17d27481e4aab07a033c559da5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  importAddress: Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c8f00f6147c6a23d0deecd05c51f971c') in 0.0342751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2837ad185f8937d884f6cb74b3e8eef1 DependenciesID=0a6616e6a946896ca63b3ffafda3a595 StaticDependenciesID=6b046a43df38c84a2b1bdde71670a329 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat
+  importAddress: Guid(6751ce1a4611b3940812c13a6847d94f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo - URP.mat using Guid(6751ce1a4611b3940812c13a6847d94f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01847b43bfa7d1426a46dbe05afdc778') in 0.5129013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ca3741a612bf83daabebeb598f9d306 DependenciesID=713a07874f07a10ef9c3927a8ac6085c StaticDependenciesID=fffb3766aa2672f041734c19d1610537 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  importAddress: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ca0ac29333f3d3be8f00398714a82c6') in 0.0564509 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c04659fde4aa826b42d923b2cb5b77cf DependenciesID=b1f3a011f7910a8fed8c33541a69bd4c StaticDependenciesID=c50cc2780163cf94102eec0544728bc6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/general/operations/update.png
+  importAddress: Guid(ba4ef0e9aee9090429ed0c4ac936e2db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/general/operations/update.png using Guid(ba4ef0e9aee9090429ed0c4ac936e2db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95f6336d6004f517c85d5507beff0ad8') in 0.0420749 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b8901885707e8c16061110196f66a1f DependenciesID=1bea7a1d1fad59864ed990f0681e2dae StaticDependenciesID=50fcc37ef9977d7893f5adf1c7502b23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  importAddress: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9653ddd9b3fa680cd809a223ad16903') in 0.0626985 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=512084b669eec16846671eb6c11cf66d DependenciesID=2ed58dbe34d7cdfd978492c27021ac54 StaticDependenciesID=394f2dcd068d897485341bbe3a144590 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/extended/createoperator.png
+  importAddress: Guid(0f7a17bf76131bb4faaa113131dfcef3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/extended/createoperator.png using Guid(0f7a17bf76131bb4faaa113131dfcef3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '374931b41ea057963f7390ec1f80e2ce') in 0.0421234 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab51d08f7747ace6a7c97d5aab2c94e2 DependenciesID=b2299b17a025b5701fe8cb2651018e24 StaticDependenciesID=0f561720c1eba161b8c9d6441c45161f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/extended/uvoperator.png
+  importAddress: Guid(db3a1294bf492c642bb7964603aa67a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/extended/uvoperator.png using Guid(db3a1294bf492c642bb7964603aa67a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f104500533293b3598f40c91c70f021') in 0.0416058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=363f8dec4e16d746a50b368ed9b2da4d DependenciesID=9ebec1cfb43ec0d70f9d78f49acf3534 StaticDependenciesID=84ccdf068d7f6acea7f6ba4f6f06f8db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/extended/shapecontrol.png
+  importAddress: Guid(045b6d99be8e86746883cccece87f3c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/extended/shapecontrol.png using Guid(045b6d99be8e86746883cccece87f3c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '82d1c4988101596140092c9fb5513584') in 0.036993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa0fddacccb6d4bb526b04820a8e3f1a DependenciesID=762d7b566920c45748d59763090a6880 StaticDependenciesID=40497bcc2698e7fd10aa244b6321a7d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/AdvancedShapeEditing/Proportional Editing.asset
+  importAddress: Guid(c6ea8a2da02dedc43abc4668976f359f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/AdvancedShapeEditing/Proportional Editing.asset using Guid(c6ea8a2da02dedc43abc4668976f359f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '46a2b97e1ef97491496706e2c46b6442') in 0.0277165 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6814e91c45bc3e5e07d57b0fe1f33a0 DependenciesID=40c3a8a152ccf9ddadd6e2bb29de9665 StaticDependenciesID=159cc7dcee0a57a4b8e2a85d9b90753e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Curved Poly Statistics.asset
+  importAddress: Guid(8952731172e655248a154dc262a6bd62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Curved Poly Statistics.asset using Guid(8952731172e655248a154dc262a6bd62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e42546b2b5759ee5c02fa93fe2c862be') in 0.0278108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a27e6d2de16ee8670598e1283b163a97 DependenciesID=6bcb95abbff38da5b0b23049f3e607d9 StaticDependenciesID=eda249ddeed8079e58a9b650ea310513 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Curved Poly Tools.asset
+  importAddress: Guid(2e8ca1801d988df4dbdfe01ce75be1fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Curved Poly Tools.asset using Guid(2e8ca1801d988df4dbdfe01ce75be1fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'afe8c8aa281b0b1ddcbf500f92a3ee59') in 0.0294234 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a99216e86d6b574e3213385d260edd6 DependenciesID=b318c7a8fef18aebe08d3d16a461a5d1 StaticDependenciesID=7d5c945522e54524b8a419fb0e2ca672 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Data Compression.asset
+  importAddress: Guid(a8f4d18a9c2021a429010dedcbb3c8ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Data Compression.asset using Guid(a8f4d18a9c2021a429010dedcbb3c8ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d09571e2199f8164607eb9b234fdff9') in 0.0304984 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d95783b6673244f6e58a19ce7af74e0 DependenciesID=29d924d3a2e8420c62cb7aefdfaf60ef StaticDependenciesID=b9c6f8c901f2c934cf9f0c334db85f1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/BasicShaping/PickedVertex.asset
+  importAddress: Guid(72a55926b2a85ab44adceb6d7d16c029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/BasicShaping/PickedVertex.asset using Guid(72a55926b2a85ab44adceb6d7d16c029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e60113aa2ff28e839842224b333ad12') in 0.0273338 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed94148f92222fecc84830e769c5b48c DependenciesID=aa8a2771899eec70ab303c0f13b1b97a StaticDependenciesID=192a1d8d87f5cc7c4f8ec284092c1558 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Levels of Detail.asset
+  importAddress: Guid(2ba9d73133b62f342b69f743a98517ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Assets Workflow/Levels of Detail.asset using Guid(2ba9d73133b62f342b69f743a98517ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '278a451b125aa67bc39e1601ba9905c3') in 0.0300425 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94927a68e3104ba51db06546b635c72d DependenciesID=b9ef5290345450bc5834c2608fe6d816 StaticDependenciesID=abd655f8aa22a8184da69fa2b7f8076c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Composition/GeneratingParts.asset
+  importAddress: Guid(d26d9b82f41492a4cb2bb0bed5ea3649) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Composition/GeneratingParts.asset using Guid(d26d9b82f41492a4cb2bb0bed5ea3649) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bae182ae9c363c1c9e760ee8d595290e') in 0.0293405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef5f10ef10f5811badc00cf028dc389d DependenciesID=9708de14cc5fed44fbc7d7d6ef49146d StaticDependenciesID=7a1435c9a4afb37787afc19e44b00366 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Composition/Composition Tools.asset
+  importAddress: Guid(fb5524ddfedf98e46ba284eff96f0d7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Composition/Composition Tools.asset using Guid(fb5524ddfedf98e46ba284eff96f0d7e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c3b6402bde14419dea56d7267b40e28a') in 0.0260549 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2cb5b44de0ed0772ea21f10dcdf5b2cc DependenciesID=6edbc0914a0b009fb8c6a05469f19b81 StaticDependenciesID=6055499d876127bbf11c583340c054fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Composition/Create Primitive.asset
+  importAddress: Guid(a08adf5556517ea4dbc9f3b0be05b75a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Composition/Create Primitive.asset using Guid(a08adf5556517ea4dbc9f3b0be05b75a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3089fa64a102fd1ed16a4eb0e25d1760') in 0.0302459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d4f6bf8bdbcb83d09c0e6a8bb43e240 DependenciesID=6facb3bd7dfcce6e05d6588572a4ee88 StaticDependenciesID=39660962d6c6e2521f2390216f3a7703 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/CirclePathUpdate.asset
+  importAddress: Guid(decca06ed333eab46ba244fc34390eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/CirclePathUpdate.asset using Guid(decca06ed333eab46ba244fc34390eda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a6ab777f49c0964bf46d0477989b3f4a') in 0.0281358 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a7f620f8a0d415ef04feb65e18727e8 DependenciesID=7264a1b2ef0f7645970c534ac187bd27 StaticDependenciesID=d6b38f945ab42449f9ffc11282b10299 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/CirclesAndEllipsesGeneration.asset
+  importAddress: Guid(689a7af990d9fe644b04fcb21b297f76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/CirclesAndEllipsesGeneration.asset using Guid(689a7af990d9fe644b04fcb21b297f76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '098c58f5b3b4f374272bd56e11dcdefe') in 0.0289005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7074c99af351efc61af15a0963305a7 DependenciesID=2c7f7be87716a9632733140247a8da61 StaticDependenciesID=1cc2af64dad4db0c19e0c34a92b291f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/CurvedTubeUpdate.asset
+  importAddress: Guid(34c8b6e148a75d348832cc19a0210f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/CurvedTubeUpdate.asset using Guid(34c8b6e148a75d348832cc19a0210f97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2200d3fa404789450aeb6658385ab942') in 0.0293065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ad2895cfc2d4c8c97a5a8fa8c38ed9f DependenciesID=2a4a052b64f221647371b61ac93cdc81 StaticDependenciesID=2054571075b842ac526f574d00e76338 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/EditTools/Make Circle.asset
+  importAddress: Guid(82a448091f50be5468f47cc9712748b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/EditTools/Make Circle.asset using Guid(82a448091f50be5468f47cc9712748b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '22e0772b155505dc9c6f7fa86d425966') in 0.028957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12602981f47b50c581b8fa919e274a1a DependenciesID=e72d91666bf0b3509717a7710cf66a4b StaticDependenciesID=e33fb1ebc3e50bcd53240ed16ab9433a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/RoundRectGeneration.asset
+  importAddress: Guid(bab847f82e007bd44a47cd7e50f82f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/CurvesAndSurfaces/RoundRectGeneration.asset using Guid(bab847f82e007bd44a47cd7e50f82f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '645d0aa682f0ba27933fe3d222e88fc7') in 0.0290164 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=913d5a7dc7d4d62b969272f3d8fb2f23 DependenciesID=f6454d91e406b04491996b10aecdabfe StaticDependenciesID=8bdb7155d9d48c1585155f4a719fd477 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/EditTools/Circular Hole.asset
+  importAddress: Guid(74cf161711f1f8c49b14cb9ba799e58b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/EditTools/Circular Hole.asset using Guid(74cf161711f1f8c49b14cb9ba799e58b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7f93a9888032e14478177552ad5bf0bf') in 0.0282624 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e212dca67b79864c8c2e7c2f9264a997 DependenciesID=94fe7f65236ca403450009ff12afcb88 StaticDependenciesID=b904f8753a4170a095a5899512a583e3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/EditTools/Remove Doubles.asset
+  importAddress: Guid(044b82d4c3c62244796f578248fa8abb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/EditTools/Remove Doubles.asset using Guid(044b82d4c3c62244796f578248fa8abb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '485255341802eb74ee24c50166c655ee') in 0.0264907 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4790a603e5c5d7d2d9da0a35b414db69 DependenciesID=490f761025fe5b845d47436f7505b703 StaticDependenciesID=93f249e9470cb51a6711a3642b2e488c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/LevelsOfDetails/Tessellation Mode.asset
+  importAddress: Guid(40f5f3faa9cf5e5458298f2c672d287f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/LevelsOfDetails/Tessellation Mode.asset using Guid(40f5f3faa9cf5e5458298f2c672d287f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94635660d467402a17fe844a7ef14439') in 0.0285513 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33832cfb9548557ecedeb870cac8cbef DependenciesID=0143d0683381b70be7acd087e77e6294 StaticDependenciesID=83255982beddd6018828d0821d20935e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/EditTools/Put Vertices.asset
+  importAddress: Guid(b68155003b61d2e49aa10fb59767c85b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/EditTools/Put Vertices.asset using Guid(b68155003b61d2e49aa10fb59767c85b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ef09179f5679b3d5e8fa45b5fe19f87') in 0.0282622 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e61fd84db4c17507412f8f912084171 DependenciesID=ec628b4200512fd4cdc673ab21429aa6 StaticDependenciesID=b87f84727638665126537508ac5a14c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/SelectionAndVisibility/Selection and Visibility.asset
+  importAddress: Guid(df75c570271d33540a9fd64160d73eb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/SelectionAndVisibility/Selection and Visibility.asset using Guid(df75c570271d33540a9fd64160d73eb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5c2008ad12c980446f6f0664fe39f0d') in 0.029256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c5dfdd4ac79cacb95240711c75e677e DependenciesID=f80f9976395e20e87c7ac2a66a2dd978 StaticDependenciesID=bc2c110fab30630de7696496d9545de9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/Materials/UV Transform.asset
+  importAddress: Guid(aa1431c332c0a774da200720d72fbb5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/Materials/UV Transform.asset using Guid(aa1431c332c0a774da200720d72fbb5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9ae72b0e34cfd5d25d883f33243fd3a') in 0.0312324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8ed7064966aceaed8885b1c9cb944f6 DependenciesID=1d4917df9466f1bada3638543a60b9c0 StaticDependenciesID=558eb449c30347de617d78e07c0b64bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/ToolsSet/AdvancedShapeOperator.asset
+  importAddress: Guid(ce02d5732b5f80544821c36134a6349d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/ToolsSet/AdvancedShapeOperator.asset using Guid(ce02d5732b5f80544821c36134a6349d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '363b82a781d7baa283a9e1d3a20439bf') in 0.0338878 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a405284cc09bccdc52d60fb38f167f2 DependenciesID=5d640cb613c64fc9d5ec646ffa01422d StaticDependenciesID=702c56bbe54cd0244fc77b7f4c8b1048 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/ToolsSet/ShapeEditOperator.asset
+  importAddress: Guid(0edd4c335a6f9824db710c04a9a6575b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/ToolsSet/ShapeEditOperator.asset using Guid(0edd4c335a6f9824db710c04a9a6575b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95d8b138b555be019d98a03817682641') in 0.0274926 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fba34260bfc41153285f0c693134a05 DependenciesID=818b3c53973ab3a8edec970cb2007909 StaticDependenciesID=da950a73e3d6d1d66b46e5cc855795bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Docs/ToolsSet/ShapeOperator.asset
+  importAddress: Guid(4bf806c72ad00c440b821e9bb5c42248) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Docs/ToolsSet/ShapeOperator.asset using Guid(4bf806c72ad00c440b821e9bb5c42248) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f73adef95a783c7bab52452d354df603') in 0.0286663 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a107ad606599bc05c88448596542ff5 DependenciesID=528628dd83c3b593f804aa81f8f11758 StaticDependenciesID=795b5f2900df6321b45860a28d4a2c20 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/EditEdges.asset
+  importAddress: Guid(567c45ee7a868b84faf30d1f72a2bdc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/EditEdges.asset using Guid(567c45ee7a868b84faf30d1f72a2bdc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b49ddfe07b97408b9941ea3bbaa36876') in 0.030837 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=261d3d689af4a4bb15d2aea933f162f1 DependenciesID=12ed296ec0700b017ad878642e24936c StaticDependenciesID=e0c3fab87b637fd1bca19f55e6d5f518 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/PointingsToolInfo.asset
+  importAddress: Guid(35c1cc90673e8ec43b36bba409da32e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/PointingsToolInfo.asset using Guid(35c1cc90673e8ec43b36bba409da32e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9ae5e32235f02bdf036f181996073d3f') in 0.0300998 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83e2f327a43933fa1d06779abb4f5e72 DependenciesID=930d8b58d04ace18496f6466dfbf79c2 StaticDependenciesID=39023a8f644bc05e0a8031582236eb3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/EditPolygons.asset
+  importAddress: Guid(89e5c0c4a7bf2bd4fb83db1076e3ac91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Info/Tools/Pointing Tools/EditPolygons.asset using Guid(89e5c0c4a7bf2bd4fb83db1076e3ac91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'accf87a948e6c5dca7b01bcf9cf9d6ed') in 0.03602 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e446aba8a6372f2ca4ec6c8eb3c15b07 DependenciesID=55ca56b1a28d13308372b8e8c92a78a9 StaticDependenciesID=3a4aa2e0cc63a67470157b6064e7fb06 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/tessellation/gouraud_interpolation.png
+  importAddress: Guid(268b407fe852f8a41b5a3d7e5415114a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/tessellation/gouraud_interpolation.png using Guid(268b407fe852f8a41b5a3d7e5415114a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b21798025b6cd6d8d1b768491d34cc95') in 0.0388426 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc0d0fa71fd65b9555bb7b06f8130c7d DependenciesID=643f3ab27ce287fb6bce141e8fcb47f0 StaticDependenciesID=fcef899fd2360a66ee0a7f34f7f46be4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  importAddress: Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f20db9817309ebd3c3f19874a62e90c1') in 0.0455266 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=595c6d7e2d6c5942ef3955d4886f2b46 DependenciesID=22bd50a4c46f624241861b4ac1044475 StaticDependenciesID=deee0a901c8c905c3c27cb08e28e2241 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/shapecontrol/proportionalediting.png
+  importAddress: Guid(cdc5171ffaef21640adb6264a76f5f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/shapecontrol/proportionalediting.png using Guid(cdc5171ffaef21640adb6264a76f5f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '74081bb2aeed79050a1ed0914f786d78') in 0.0498368 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74f29f6692cbfe24a83a29946bcf600f DependenciesID=3830bc53ae962e45ff0964a2189fbce6 StaticDependenciesID=cc252d772ff3ace150d690e0e5ac6315 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/New Material.mat
+  importAddress: Guid(8f5673474f68b224985dd89ad6233187) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/New Material.mat using Guid(8f5673474f68b224985dd89ad6233187) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f643ad89058fd857e8226ed57cd6ecfa') in 0.0297925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9406be483b26167caf9725a16af56ef3 DependenciesID=a4733fc3747f3241b26730d78c044af6 StaticDependenciesID=e7151fcac34202a27360dbb5a104ff31 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CurvedPoly/Editor/Materials/EditMaterial0005RP.mat
+  importAddress: Guid(7f66d21a63d4ae946b1fbd0660f87598) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Materials/EditMaterial0005RP.mat using Guid(7f66d21a63d4ae946b1fbd0660f87598) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3fbde31808a53b16f5034d373d63b41e') in 0.065104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67263366d8a3cd287090bf78353050dd DependenciesID=ad29e0a2e3d20a2eefebc4467a6d54cf StaticDependenciesID=a5b16fe04f3ae851ccca641081495c2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CurvedPoly/Editor/Grids/Grid Box 3x No Steps.asset
+  importAddress: Guid(c1efde17bca51da4cb5732d4ea4b79a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Grids/Grid Box 3x No Steps.asset using Guid(c1efde17bca51da4cb5732d4ea4b79a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6eaf22b9623baf660c27ff7b4fd68af0') in 0.0283157 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=340c0a1c1720591a9a7321d98538b41f DependenciesID=20fe45311ad5a90813cdf9e7ccd97c41 StaticDependenciesID=f64fa2ae64bf48f55d0cc60a5fab8175 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CurvedPoly/Editor/UI/ShapeEditorMenu.asset
+  importAddress: Guid(043e5443c8af2374391cc4c860f147ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/UI/ShapeEditorMenu.asset using Guid(043e5443c8af2374391cc4c860f147ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f122208f0f3677b1d0f48dd9804332c') in 0.0291437 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82c6b24d36f9d1cf0c444b65b7d5af02 DependenciesID=687726e7fc76c05787d207015a2018dd StaticDependenciesID=425889b695e48fa803c0956df73c6df9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  importAddress: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd901ab09882d4f9be45fc9f2f9dde8c6') in 0.0350216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f860b0d3fd56cee1e3a24550a95b7cb DependenciesID=eb0473f842eb5b0276a980000afc686e StaticDependenciesID=b9218f649c44488f96aedd289c3361e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf
+  importAddress: Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf using Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '00a088fc7b86210173cb2f3ac8c3be18') in 0.0327522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f89b5a4eac0e3e058a261ee4b77cab8 DependenciesID=33f6cc80a27d8a7168a2c6cbfe998008 StaticDependenciesID=e923a0f5cf2fdb171a1fa33548ed45c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CurvedPoly/Assets/Models/SpicesCap.asset
+  importAddress: Guid(43d9313a98a2440438d51e826a840a80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Models/SpicesCap.asset using Guid(43d9313a98a2440438d51e826a840a80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e071c63c9a7c181b7f58f9dede0b7ca') in 0.030092 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=057f2bb242fb23e24b33b81b7b7bd9f7 DependenciesID=c501e718d3aa369f7f514e0dc940aa8c StaticDependenciesID=68796110df2f2627041af5d7cd0c5f63 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/elasticities/axisnormal.png
+  importAddress: Guid(513b4b6de66970a40a6982e4f9b87c8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/elasticities/axisnormal.png using Guid(513b4b6de66970a40a6982e4f9b87c8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '14a2ede4f734306c86e5efbe2aa0130a') in 0.0404681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1cd999e294f1d40149bc7030a2c6c135 DependenciesID=b1ed521930f7b3484ab9f14a93a19624 StaticDependenciesID=1b6a3410be9d23d32251b74c82083a17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CurvedPoly/Demo/Materials/Metal.mat
+  importAddress: Guid(0e5edaf575a19c44bbe65cab32a77b64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Materials/Metal.mat using Guid(0e5edaf575a19c44bbe65cab32a77b64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff05050eea68e6c5b88a850fff05a42d') in 0.0656628 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d766bc6633a67aa3a2b91472401c716b DependenciesID=7e5c7ace72b2967fdb960d319d1eeb81 StaticDependenciesID=58cf5ac9ff27574bbc5b136f0ec2a949 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MyCustomMover 1.cs
+  importAddress: Guid(628070beae4856e44bb72c6f5a5dd7c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MyCustomMover 1.cs using Guid(628070beae4856e44bb72c6f5a5dd7c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab075b9b65ed30bfb0240f1f277b8c4a') in 0.0406544 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=335f7828652602f0f00523678fe9160a DependenciesID=b5650a99cf65486157e505027dd7295e StaticDependenciesID=ef1708ea62561d6de103bdbe47be3352 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/uv/verticesandhandles.png
+  importAddress: Guid(d0fb8ee8be20b9b479d186f250800cb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/uv/verticesandhandles.png using Guid(d0fb8ee8be20b9b479d186f250800cb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '750519d1c71980811bf5ff2c7ffee9ca') in 0.033809 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1dfde5d42be077b4724aaa53fea91da1 DependenciesID=1c0e56a261ab1b9ca35ab174429ffe57 StaticDependenciesID=08003bf252c7bd1a19e91cf02b0a2301 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Unwrapped/Plate2xUnwrapped.asset
+  importAddress: Guid(c17b09dfe707dda4e884773b0a30681c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Unwrapped/Plate2xUnwrapped.asset using Guid(c17b09dfe707dda4e884773b0a30681c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e4d98d24e39e88290ec3c58dff252bb9') in 0.028687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7729f7c173e14871170a6a831cd67409 DependenciesID=ad4aa99e698b8005b28f78a4aec1b203 StaticDependenciesID=7769c4c7125805500b52ff211cf73210 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Button (Cube).prefab
+  importAddress: Guid(0c929378e163b9a43bf7db515e11a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button (Cube).prefab using Guid(0c929378e163b9a43bf7db515e11a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3ba97565634f2793bfb0c04378976b00') in 0.1197629 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ecbcb16233d593adb99768231f9f1fa DependenciesID=f753521f042111c0ee5e659651fef5fc StaticDependenciesID=85fed3a683a2c6986fd5f1afcb87e468 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  importAddress: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4024e41d890d1772febe5dbc146b4f04') in 0.0302336 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ccc686bd3990baf1762bd0733639fb43 DependenciesID=56bdc6073553dd30b3a4bb55d42cc663 StaticDependenciesID=086b5680e33efca1bae2e5551aec11b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CurvedPoly/Editor/UI/EditMenu.asset
+  importAddress: Guid(716f7ee5ac967744b8d2dad45f11f28b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/UI/EditMenu.asset using Guid(716f7ee5ac967744b8d2dad45f11f28b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '256bf48057e02b1f070f4af37aaeca2d') in 0.0320687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22763ea42482f1b5cd0852b4a4d9a062 DependenciesID=5e9fa5f66eefe51b557983d3a6eabf05 StaticDependenciesID=d3f9d9c9f9fe747ecebb69acbe8fdef0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CurvedPoly/Demo/Materials/WhiteChecker.mat
+  importAddress: Guid(76208ffdc7a59fe42b48d59356d3ee5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Demo/Materials/WhiteChecker.mat using Guid(76208ffdc7a59fe42b48d59356d3ee5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b123014cf3283cbf9c82ea8fa712ad16') in 0.0344334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c29337ff5bad9bd1b996bc5ae7740a5b DependenciesID=5cbc01e9c593f35efac885ec3d782c2e StaticDependenciesID=c47afd5fc825aa4eb81b920edd1a9393 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  importAddress: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '02bef27408fce7f716ed6e489838d4ef') in 0.0768453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77d2d70cd59c9181c4ce9ecdf142b89a DependenciesID=916a91fe0bfe0cce19f3ffce85d0a874 StaticDependenciesID=c8804b8a5531bf9630cbb1cba09eb58a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Spot Light.prefab
+  importAddress: Guid(f98668aa2a0940c40b96a2cb03fda5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spot Light.prefab using Guid(f98668aa2a0940c40b96a2cb03fda5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd99587f232e38e48e600b4bf0c07766d') in 0.0063216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77d4b665da80cf31f7ab51ddd5708b57 DependenciesID=8c517041afa7211704ad1f36b5e5da05 StaticDependenciesID=b66f5e0155f842d86764039fb87a6040 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  importAddress: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b07acc0f89d2f790105b475b7be5f14') in 0.0275989 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5e720f3718959f3ebf9169392a63b0a DependenciesID=7d77b5e9fe754698ef1729636c2edc2b StaticDependenciesID=54796b178d1ac5560e8bbc383702abfe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CurvedPoly/Editor/Icons/operators/rectangleselection.png
+  importAddress: Guid(8b439429bd2acad4898ad406260eaa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Editor/Icons/operators/rectangleselection.png using Guid(8b439429bd2acad4898ad406260eaa1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f8f831c450734174d278dfcc766706f7') in 0.0435039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d706d00a23e07d8d831d4bf0c850746 DependenciesID=e1a7eeea11f4b1326bce186543df1a82 StaticDependenciesID=1607e4709781e1fb6dbac86d7e8e1008 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cheese.prefab
+  importAddress: Guid(0c295a3501cbbd346b085a0d901a0cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cheese.prefab using Guid(0c295a3501cbbd346b085a0d901a0cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '77c0725e665cb97f0a9496142fe22456') in 0.0721995 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9775c34b9a4ff3bc619ffbfb6306a99 DependenciesID=98a987cf474f622fb06436f2d4927b34 StaticDependenciesID=c2cc0c4c5c078750f7ce0d1a9fcb3e5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  importAddress: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8b253c21c4d97dad2e1443fe973b7de1') in 0.0506203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0a1cba86c0d85c7d849126c4979a1c2 DependenciesID=1601a47715122a82d9d4faff8939748e StaticDependenciesID=5b281e467e49f9252b5fed0f564882a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
+  importAddress: Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity using Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b7d47a49e8d8ba43fb3328444e545c83') in 0.0509629 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0cdae5ea570c41d6bcc8f217adb9a99 DependenciesID=27e82e27b686e4d9e316d475b3f73f53 StaticDependenciesID=269f6014f81948d27e8a5176ef6b60fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/QuickOutline/Samples/Scenes/QuickOutline.unity
+  importAddress: Guid(f23712c79adc910408e872b127e825cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline/Samples/Scenes/QuickOutline.unity using Guid(f23712c79adc910408e872b127e825cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1983f2cb4358e34a53c6ccc5d956e2b3') in 0.0465154 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfdb8a97a8cec17a3004c3bb1c82178c DependenciesID=2b58971679447f49de5db6335f3af7ce StaticDependenciesID=eaf4a8a45a5c1f6c09f6a7d861fc4791 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CurvedPoly/Assets/Primitives/Simple/Cylinder2x.asset
+  importAddress: Guid(57ae63ec49619374da72c327a2dbb17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CurvedPoly/Assets/Primitives/Simple/Cylinder2x.asset using Guid(57ae63ec49619374da72c327a2dbb17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '643f62c63abb28e51b48d7a74765bc2b') in 0.027853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1a4b1d7cedce87341ad2d56366737fb DependenciesID=1b2d5602e8cd31613b76171377967cbf StaticDependenciesID=7ce0c3e9a2ea8fcccaf50a43b7cebdf2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9b2e3c8e59bc95846987fe53593eb8e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Demo/Materials/BluePaintChecker.mat
+  uploadId: 473250

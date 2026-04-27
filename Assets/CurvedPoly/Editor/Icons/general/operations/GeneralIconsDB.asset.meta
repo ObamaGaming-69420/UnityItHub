@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af68b40fc06519e4dab87dc89db2ab13
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Icons/general/operations/GeneralIconsDB.asset
+  uploadId: 473250

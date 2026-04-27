@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1724e84695d35ef4db5c4462308f2749
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Demo/Materials/BluePaint.mat
+  uploadId: 473250

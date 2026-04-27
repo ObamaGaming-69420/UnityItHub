@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1172067954335024ba7c1b083ef85bac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 147005
+  packageName: Curved Poly - Shape Editor
+  packageVersion: 1.3.1
+  assetPath: Assets/CurvedPoly/Editor/Grids/Grid XY Step 05.asset
+  uploadId: 473250
