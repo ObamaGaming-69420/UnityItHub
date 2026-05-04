@@ -637,7 +637,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6205912375296788750}
   serializedVersion: 5
-  m_Mass: 20
+  m_Mass: 10
   m_LinearDamping: 0
   m_AngularDamping: 0.1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -672,7 +672,7 @@ MonoBehaviour:
   BackwardKey: 115
   LeftKey: 97
   RightKey: 100
-  Power: 20
+  Power: 3
   RotationSpeed: 130
   UseGravity: 1
 --- !u!1 &7045422326314929281

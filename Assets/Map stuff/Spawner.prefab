@@ -47,7 +47,7 @@ MonoBehaviour:
   CreateKey: 9
   ObjToCtreate: {fileID: 520430217623209841, guid: 0c295a3501cbbd346b085a0d901a0cfb, type: 3}
   Offset: {x: 0, y: 0, z: 0}
-  ObjectNumToSpawn: 25
-  Cooldown: 0.2
+  ObjectNumToSpawn: 1
+  Cooldown: 0
   activationTrigger: {fileID: 0}
   SpawnSound: {fileID: 8300000, guid: 20d4d5104b1216741947669f61d784df, type: 3}

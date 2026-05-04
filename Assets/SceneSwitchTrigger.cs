@@ -49,7 +49,7 @@ public class SceneSwitchTrigger : MonoBehaviour
     private IEnumerator LoadSceneWithDelay()
     {
         // Ждем 2 секунды (можешь заменить на свою переменную)
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2.5f);
 
         if (loadNextScene)
         {

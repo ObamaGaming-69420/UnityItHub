@@ -1,38 +1,38 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.4f1 (360f97ecca93) revision 3542935'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16329 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-04-27T22:48:06.1882044Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'ru' Physical Memory: 15614 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-27T22:48:06Z
+Date: 2026-05-04T15:39:51Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-05-04T15:39:51.1893199Z"
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.4.4f1-x86_64\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.4.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/User/UnityItHub
+C:/Users/User/The Pusher
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-10832
+49679
 -licensingIpc
 LicenseClient-User
 -force-d3d12
 -job-worker-count
-11
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/User/UnityItHub
-C:/Users/User/UnityItHub
+Successfully changed project path to: C:/Users/User/The Pusher
+C:/Users/User/The Pusher
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -68,13 +68,13 @@ C:/Users/User/UnityItHub
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [10528]  Target information:
+Player connection [23416]  Target information:
 
-Player connection [10528]  * "[IP] 192.168.31.132 [Port] 0 [Flags] 2 [Guid] 419060561 [EditorId] 419060561 [Version] 1048832 [Id] WindowsEditor(7,Yaroslav-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23416]  * "[IP] 192.168.31.201 [Port] 0 [Flags] 2 [Guid] 839423959 [EditorId] 839423959 [Version] 1048832 [Id] WindowsEditor(7,NepochatovLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10528] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10528] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [23416] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23416] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -85,73 +85,78 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.26 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 21.75 ms, found 5 plugins.
 Initialize engine version: 6000.4.4f1 (360f97ecca93)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.4f1-x86_64/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/UnityItHub/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/The Pusher/Assets
 Forcing GfxDevice: Direct3D 12
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
-    Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
-    Vendor:          NVIDIA
-    VRAM:            8018 MB
-    App VRAM Budget: 7250 MB
-    Driver:          32.0.15.9186
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
-[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.4" at "2026-04-27T22:48:07.1579211Z"
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon (TM) Graphics (ID=0x1681)
+    Vendor:          ATI
+    VRAM:            7807 MB
+    App VRAM Budget: 7622 MB
+    Driver:          31.0.12044.3
+    Unified Memory Architecture
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1-x86_64/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.4f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003781 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004699 seconds.
 Native extension for WindowsStandalone target not found
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              6c63d15fdb0e418894b44d841b4611a7
-  Correlation Id:          a6c3418d09f94779e152e97cd8ae9714
-  External correlation Id: 9140342424094879875
-  Machine Id:              BSvDQS1tac/Qb4lrS8KxUSArf7s=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.4" (connect: 0.00s, validation: 0.00s, handshake: 0.94s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.4-notifications" at "2026-04-27T22:48:08.0999029Z"
-[Licensing::Module] Licensing Background thread has ended after 1.91s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.431 seconds
-Domain Reload Profiling: 991ms
-	BeginReloadAssembly (174ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (232ms)
-		LoadAssemblies (166ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (202ms)
-	FinalizeReload (433ms)
+- Finished resetting the current domain, in  0.951 seconds
+Domain Reload Profiling: 2191ms
+	BeginReloadAssembly (402ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (395ms)
+		AnalyzeDomain (513ms)
+			TypeCache.Refresh (511ms)
+				TypeCache.ScanAssembly (433ms)
+	FinalizeReload (954ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (213ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Module] Error: Timed-out after 60.01s, waiting for Licensing to initialize
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.4" at "2026-05-04T15:41:45.0294429Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              143bbc2616b347c5b020f5daeb90b122
+  Correlation Id:          497184a2dc253fb08cc25ba5968a61f9
+  External correlation Id: 8201031575535978853
+  Machine Id:              2urvVuWl7lPPXBBjjw2Hi5A9tm4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.4" (connect: 0.00s, validation: 0.00s, handshake: 6.23s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.4-notifications" at "2026-05-04T15:41:51.2622186Z"
+[Licensing::Module] Licensing Background thread has ended after 120.07s
+[Licensing::Module] Licensing is initialized (took 54.71s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 10171554522819-UnityPersXXXX
@@ -193,12 +198,12 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 2.46 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 5.67 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.67 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 7.47 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -207,53 +212,78 @@ Refreshing native plugins compatible for Editor in 2.67 ms, found 5 plugins.
 [MODES] Loading mode Default (0) for mode-current-id-My project (1)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.043 seconds
-Domain Reload Profiling: 2140ms
-	BeginReloadAssembly (210ms)
-		DisableScriptedObjects (6ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (724ms)
-		LoadAssemblies (544ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (191ms)
-			BuildScriptInfoCaches (72ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1043ms)
+- Finished resetting the current domain, in  3.017 seconds
+Domain Reload Profiling: 120021ms
+	BeginReloadAssembly (60503ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (54926ms)
+	LoadAllAssembliesAndSetupDomain (1419ms)
+		LoadAssemblies (1057ms)
+		AnalyzeDomain (635ms)
+			TypeCache.Refresh (448ms)
+				TypeCache.ScanAssembly (414ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3018ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (175ms)
-			ProcessInitializeOnLoadAttributes (509ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (418ms)
+			ProcessInitializeOnLoadAttributes (1736ms)
+			ProcessInitializeOnLoadMethodAttributes (280ms)
+			AfterProcessingInitializeOnLoad (18ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.86 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.69 ms, found 5 plugins.
 Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7333 unused Assets / (8.5 MB). Loaded Objects now: 8579.
-Memory consumption went from 167.4 MB to 159.0 MB.
-Total: 12.363500 ms (FindLiveObjects: 1.308300 ms CreateObjectMapping: 0.482900 ms MarkObjects: 6.834400 ms  DeleteObjects: 3.735800 ms)
+Unloading 7335 unused Assets / (8.2 MB). Loaded Objects now: 8583.
+Memory consumption went from 171.7 MB to 163.5 MB.
+Total: 26.652000 ms (FindLiveObjects: 1.875800 ms CreateObjectMapping: 1.544100 ms MarkObjects: 15.417600 ms  DeleteObjects: 7.804400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 898321.098258 seconds.
+  Time since last request: 882784.011672 seconds.
+  path: Assets/Map stuff/Button (Box).prefab
+  importAddress: Guid(0c929378e163b9a43bf7db515e11a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map stuff/Button (Box).prefab using Guid(0c929378e163b9a43bf7db515e11a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70cacc6c5e47a39abf0be2e821ca9b44') in 1.6750002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93332a2a6b516d4d4a17145850ec5d5d DependenciesID=d1b3e07034109f1e83a3a316567d8da2 StaticDependenciesID=3fbb7dc04aac218adabb33a32fd1662d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
   path: Assets/Map stuff/Circle Button (Player).prefab
-  importAddress: Guid(6fc6310ea5eddc340b45e96d3dcb552b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map stuff/Circle Button (Player).prefab using Guid(6fc6310ea5eddc340b45e96d3dcb552b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c62a17cff3930d40ec7dee6df91ac42a') in 0.0984965 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b05e42120d54f09e1b4352799308e8b DependenciesID=8426dd21d33cf5573ac52cfc9f6fa386 StaticDependenciesID=eaca10f9e07c8deab3738c561afdfd43 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+  importAddress: Guid(6fc6310ea5eddc340b45e96d3dcb552b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map stuff/Circle Button (Player).prefab using Guid(6fc6310ea5eddc340b45e96d3dcb552b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '12a1f37f72c7af73e8dcc964a35af080') in 0.1020456 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00e4f2b111eb0e1fbaa3b2af40ab13c5 DependenciesID=6946ed815f842c0dd123463eb73202cc StaticDependenciesID=b7b6fcb6f22915b12162be265d778627 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/scene3.unity
-  importAddress: Guid(2bf02132cc2bad94ca60e41dfb04cbe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/scene3.unity using Guid(2bf02132cc2bad94ca60e41dfb04cbe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca9b3ad44ce89392bd22fc3a96a1d8dc') in 0.015116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81c3d4b226da59c472681448c33182af DependenciesID=a7b90f485b50b9bf13efc168bf346f29 StaticDependenciesID=d47beffebbbc196e48a79f580ee2e767 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 19.783799 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  importAddress: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6f67d0d497223ee9529416d23e7cdaf') in 0.341392 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=973c781d7f5300bd589da3ed18067e1b DependenciesID=9208c72c5ee2c67d23555e1d3d86ed57 StaticDependenciesID=8205c2cc1fa8a3e4b6563a5f50201972 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 721.581638 seconds.
+  path: Assets/Map stuff/Button (Box).prefab
+  importAddress: Guid(0c929378e163b9a43bf7db515e11a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map stuff/Button (Box).prefab using Guid(0c929378e163b9a43bf7db515e11a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '26c3d8b632b541eeb8ea0a4675b84f06') in 0.1204776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93332a2a6b516d4d4a17145850ec5d5d DependenciesID=6284f8afffedd13c9e9370bbdb6966a2 StaticDependenciesID=3fbb7dc04aac218adabb33a32fd1662d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Map stuff/Circle Button (Box).prefab
+  importAddress: Guid(f85609fba70f9f441b9d1b4d0bed9508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map stuff/Circle Button (Box).prefab using Guid(f85609fba70f9f441b9d1b4d0bed9508) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '43badc727da7d77e7e4dc9547dcb0389') in 0.0739591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c8ae506e9f3e811157f36844b758e42 DependenciesID=0175aee439bad51762834ec6726dd4f7 StaticDependenciesID=a1817338657d36a451f071d19621b97f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
